@@ -22,6 +22,8 @@ interface AppState {
   groupByStation: boolean;
   collectedMaterials: Set<string>; // itemIds that have been collected
   expandedNodes: Set<string>; // itemIds that are expanded in tree
+  leftSidebarOpen: boolean; // Catalog sidebar
+  rightSidebarOpen: boolean; // Materials list sidebar
   
   // Actions
   loadRecipeBook: (recipeBook: RecipeBook) => void;
@@ -39,6 +41,10 @@ interface AppState {
   toggleNodeExpanded: (itemId: string) => void;
   expandAll: () => void;
   collapseAll: () => void;
+  toggleLeftSidebar: () => void;
+  toggleRightSidebar: () => void;
+  setLeftSidebar: (open: boolean) => void;
+  setRightSidebar: (open: boolean) => void;
   
   // Utility
   reset: () => void;
@@ -59,6 +65,8 @@ export const useAppStore = create<AppState>()(
       groupByStation: false,
       collectedMaterials: new Set(),
       expandedNodes: new Set(),
+      leftSidebarOpen: true,
+      rightSidebarOpen: true,
 
       // Load recipe book
       loadRecipeBook: (recipeBook) => {
@@ -216,6 +224,26 @@ export const useAppStore = create<AppState>()(
       // Collapse all nodes
       collapseAll: () => {
         set({ expandedNodes: new Set() });
+      },
+
+      // Toggle left sidebar
+      toggleLeftSidebar: () => {
+        set((state) => ({ leftSidebarOpen: !state.leftSidebarOpen }));
+      },
+
+      // Toggle right sidebar
+      toggleRightSidebar: () => {
+        set((state) => ({ rightSidebarOpen: !state.rightSidebarOpen }));
+      },
+
+      // Set left sidebar
+      setLeftSidebar: (open) => {
+        set({ leftSidebarOpen: open });
+      },
+
+      // Set right sidebar
+      setRightSidebar: (open) => {
+        set({ rightSidebarOpen: open });
       },
 
       // Get collection progress

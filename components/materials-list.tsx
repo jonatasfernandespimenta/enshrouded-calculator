@@ -11,18 +11,11 @@ export function MaterialsList() {
   const collectedMaterials = useAppStore((state) => state.collectedMaterials);
   const toggleMaterialCollected = useAppStore((state) => state.toggleMaterialCollected);
   const getCollectionProgress = useAppStore((state) => state.getCollectionProgress);
+  const rightSidebarOpen = useAppStore((state) => state.rightSidebarOpen);
+  const setRightSidebar = useAppStore((state) => state.setRightSidebar);
 
   if (!selectedItem || !craftingResult) {
-    return (
-      <aside className="w-80 bg-[#111813] border-l border-[#28392e] flex flex-col shrink-0 z-20 shadow-2xl">
-        <div className="p-6 flex items-center justify-center h-full">
-          <div className="text-center">
-            <span className="material-symbols-outlined text-6xl text-[#9db9a6] mb-4 block">inventory_2</span>
-            <p className="text-[#9db9a6] text-sm">Select an item to see materials</p>
-          </div>
-        </div>
-      </aside>
-    );
+    return null;
   }
 
   const materials = showBaseMaterialsOnly
@@ -38,7 +31,24 @@ export function MaterialsList() {
   );
 
   return (
-    <aside className="w-80 bg-[#111813] border-l border-[#28392e] flex flex-col shrink-0 z-20 shadow-2xl">
+    <>
+      {/* Mobile Overlay */}
+      {rightSidebarOpen && (
+        <div
+          className="md:hidden fixed inset-0 bg-black/50 z-40"
+          onClick={() => setRightSidebar(false)}
+        />
+      )}
+
+      {/* Sidebar */}
+      <aside
+        className={`
+          fixed md:relative inset-y-0 right-0 z-50 md:z-20
+          bg-[#111813] border-l border-[#28392e] flex flex-col shrink-0 shadow-2xl
+          transform transition-all duration-300 ease-in-out
+          ${rightSidebarOpen ? 'translate-x-0 w-80' : 'translate-x-full w-0 md:translate-x-0 border-l-0 overflow-hidden'}
+        `}
+      >
       <div className="p-6 border-b border-[#28392e] flex flex-col gap-4">
         <div className="flex justify-between items-center">
           <h2 className="text-white font-bold tracking-tight text-lg">Requirements</h2>
@@ -152,7 +162,8 @@ export function MaterialsList() {
           Mark Tree as Complete
         </button>
       </div>
-    </aside>
+      </aside>
+    </>
   );
 }
 

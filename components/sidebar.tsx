@@ -54,24 +54,38 @@ export function Sidebar() {
   const resolver = useAppStore((state) => state.resolver);
   const selectedItem = useAppStore((state) => state.selectedItem);
   const selectItem = useAppStore((state) => state.selectItem);
+  const leftSidebarOpen = useAppStore((state) => state.leftSidebarOpen);
+  const toggleLeftSidebar = useAppStore((state) => state.toggleLeftSidebar);
+  const setLeftSidebar = useAppStore((state) => state.setLeftSidebar);
   
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
   const [expandedSubcategory, setExpandedSubcategory] = useState<string | null>(null);
 
   if (!resolver) {
-    return (
-      <aside className="w-64 bg-[#111813] border-r border-[#28392e] flex flex-col shrink-0 z-10">
-        <div className="p-4">
-          <p className="text-[#9db9a6] text-sm">Loading...</p>
-        </div>
-      </aside>
-    );
+    return null;
   }
 
   const categories = resolver.getCategories();
 
   return (
-    <aside className="w-64 bg-[#111813] border-r border-[#28392e] flex flex-col shrink-0 z-10">
+    <>
+      {/* Mobile Overlay */}
+      {leftSidebarOpen && (
+        <div
+          className="md:hidden fixed inset-0 bg-black/50 z-40"
+          onClick={() => setLeftSidebar(false)}
+        />
+      )}
+
+      {/* Sidebar */}
+      <aside
+        className={`
+          fixed md:relative inset-y-0 left-0 z-50 md:z-10
+          bg-[#111813] border-r border-[#28392e] flex flex-col shrink-0
+          transform transition-all duration-300 ease-in-out
+          ${leftSidebarOpen ? 'translate-x-0 w-64' : '-translate-x-full w-0 md:translate-x-0 border-r-0 overflow-hidden'}
+        `}
+      >
       <div className="p-4 border-b border-[#28392e]">
         <h1 className="text-white text-lg font-bold mb-1">Catalog</h1>
         <p className="text-[#9db9a6] text-xs">Browse Recipes</p>
@@ -158,7 +172,13 @@ export function Sidebar() {
                                     ? "bg-[#13ec5b]/10 text-[#13ec5b] border-l-2 border-[#13ec5b]"
                                     : "text-[#9db9a6] hover:text-white hover:bg-[#1c2a21]/50"
                                 }`}
-                                onClick={() => selectItem(item)}
+                                onClick={() => {
+                                  selectItem(item);
+                                  // Close sidebar on mobile after selection
+                                  if (window.innerWidth < 768) {
+                                    setLeftSidebar(false);
+                                  }
+                                }}
                               >
                                 <span className="truncate">{item.name}</span>
                                 {selectedItem?.id === item.id && (
@@ -177,6 +197,7 @@ export function Sidebar() {
           );
         })}
       </nav>
-    </aside>
+      </aside>
+    </>
   );
 }

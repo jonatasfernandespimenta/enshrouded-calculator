@@ -164,16 +164,16 @@ export function CraftingTree() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-white leading-none mb-1">
-                {craftingResult.itemName}
+                {craftingResult.tree.itemName}
               </h1>
               <div className="flex items-center gap-2 text-xs text-[#9db9a6]">
                 <span className="bg-[#13ec5b]/20 text-[#13ec5b] px-1.5 py-0.5 rounded">
                   Target Item
                 </span>
-                {craftingResult.station && (
+                {craftingResult.tree.station && (
                   <>
                     <span>•</span>
-                    <span className="capitalize">{craftingResult.station}</span>
+                    <span className="capitalize">{craftingResult.tree.station}</span>
                   </>
                 )}
               </div>

@@ -77,22 +77,22 @@ export function DatabaseView() {
   return (
     <div className="flex-1 bg-[#0b100d] flex flex-col overflow-hidden">
       {/* Header */}
-      <div className="bg-[#111813] border-b border-[#28392e] px-6 py-4">
-        <div className="flex items-center justify-between mb-4">
+      <div className="bg-[#111813] border-b border-[#28392e] px-4 md:px-6 py-4">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-3">
           <div>
-            <h1 className="text-white text-2xl font-bold">Database</h1>
-            <p className="text-[#9db9a6] text-sm">
+            <h1 className="text-white text-xl md:text-2xl font-bold">Database</h1>
+            <p className="text-[#9db9a6] text-xs md:text-sm">
               Browse all items and recipes in Enshrouded
             </p>
           </div>
-          <div className="flex items-center gap-2 text-sm text-[#9db9a6]">
+          <div className="flex items-center gap-2 text-xs md:text-sm text-[#9db9a6]">
             <span className="material-symbols-outlined text-sm">info</span>
             <span>{allItems.length} items · {allRecipes.length} recipes</span>
           </div>
         </div>
 
         {/* Tabs */}
-        <div className="flex items-center gap-2 mb-4">
+        <div className="flex flex-wrap items-center gap-2 mb-4">
           <button
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
               activeTab === "items"
@@ -118,7 +118,7 @@ export function DatabaseView() {
         </div>
 
         {/* Filters */}
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
           <div className="relative flex-1 max-w-md">
             <span className="absolute left-3 top-1/2 -translate-y-1/2 text-[#9db9a6] material-symbols-outlined text-[20px]">
               search
@@ -149,7 +149,7 @@ export function DatabaseView() {
       </div>
 
       {/* Content */}
-      <div className="flex-1 overflow-auto custom-scrollbar p-6">
+      <div className="flex-1 overflow-auto custom-scrollbar p-4 md:p-6">
         {activeTab === "items" ? (
           <ItemsTable items={filteredItems} resolver={resolver} />
         ) : (
@@ -162,8 +162,8 @@ export function DatabaseView() {
 
 function ItemsTable({ items, resolver }: { items: Item[]; resolver: any }) {
   return (
-    <div className="bg-[#111813] border border-[#28392e] rounded-lg overflow-hidden">
-      <table className="w-full">
+    <div className="bg-[#111813] border border-[#28392e] rounded-lg overflow-hidden overflow-x-auto">
+      <table className="w-full min-w-[640px]">
         <thead className="bg-[#1c2a21] border-b border-[#28392e]">
           <tr>
             <th className="px-4 py-3 text-left text-xs font-bold text-[#9db9a6] uppercase tracking-wider">
@@ -239,8 +239,8 @@ function ItemsTable({ items, resolver }: { items: Item[]; resolver: any }) {
 
 function RecipesTable({ recipes, resolver }: { recipes: Recipe[]; resolver: any }) {
   return (
-    <div className="bg-[#111813] border border-[#28392e] rounded-lg overflow-hidden">
-      <table className="w-full">
+    <div className="bg-[#111813] border border-[#28392e] rounded-lg overflow-hidden overflow-x-auto">
+      <table className="w-full min-w-[768px]">
         <thead className="bg-[#1c2a21] border-b border-[#28392e]">
           <tr>
             <th className="px-4 py-3 text-left text-xs font-bold text-[#9db9a6] uppercase tracking-wider">
