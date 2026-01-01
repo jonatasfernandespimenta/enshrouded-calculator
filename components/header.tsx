@@ -1,0 +1,59 @@
+import { Input } from "@/components/ui/input";
+
+export function Header() {
+  return (
+    <header className="flex items-center justify-between whitespace-nowrap border-b border-[#28392e] bg-[#111813] px-6 py-3 z-20 shrink-0">
+      <div className="flex items-center gap-8">
+        <div className="flex items-center gap-3 text-white">
+          <div className="size-8 text-[#13ec5b]">
+            <span className="material-symbols-outlined text-3xl">token</span>
+          </div>
+          <h2 className="text-white text-xl font-bold leading-tight tracking-tight">
+            Enshrouded Calculator
+          </h2>
+        </div>
+        <div className="hidden md:flex items-center gap-6">
+          <a
+            className="text-[#9db9a6] hover:text-white text-sm font-medium transition-colors"
+            href="#"
+          >
+            Home
+          </a>
+          <a
+            className="text-white text-sm font-medium transition-colors border-b-2 border-[#13ec5b] pb-0.5"
+            href="#"
+          >
+            Calculator
+          </a>
+          <a
+            className="text-[#9db9a6] hover:text-white text-sm font-medium transition-colors"
+            href="#"
+          >
+            Database
+          </a>
+        </div>
+      </div>
+      <div className="flex items-center gap-4">
+        <div className="relative hidden sm:block">
+          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-[#9db9a6] material-symbols-outlined text-[20px]">
+            search
+          </span>
+          <Input
+            className="h-10 w-64 rounded-lg bg-[#1c2a21] pl-10 pr-4 text-sm text-white placeholder-[#9db9a6] focus:outline-none focus:ring-1 focus:ring-[#13ec5b] border border-transparent focus:border-[#13ec5b] transition-all"
+            placeholder="Search item..."
+          />
+        </div>
+        <button className="flex size-10 items-center justify-center rounded-full bg-[#1c2a21] hover:bg-[#28392e] transition-colors">
+          <span className="material-symbols-outlined text-[#9db9a6]">settings</span>
+        </button>
+        <div className="size-9 rounded-full bg-[#1c2a21] overflow-hidden border border-[#28392e]">
+          <img
+            alt="User Profile"
+            className="w-full h-full object-cover"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGs8LRhyxANuxH8bo5ddX-Ntfc_m8BfFk9YmMRMlTcjFYZrRlI6vQZX3GXrpEOdHd7WYehHnxNHdlMZCV9Ud2kyuviHOr1AVUjJmhB13X35uHTQbw5NPzJ-fJ3JjkJ7spG8kU7ZeDJFT--JJGKOJ3aRN_cWjerRbD-YupamdkR_xM4MlcqydVrBvQ0qeiodeaxfYhRIEHjRoHhTpzxho13BQ_RGzbs688zQhbxXGCfN9Vx4-IggYo0QWnst2YeVhLV4mqTXPhdjg"
+          />
+        </div>
+      </div>
+    </header>
+  );
+}
