@@ -1,6 +1,11 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 import { SearchBar } from "@/components/search-bar";
 
 export function Header() {
+  const pathname = usePathname();
   return (
     <header className="flex items-center justify-between whitespace-nowrap border-b border-[#28392e] bg-[#111813] px-6 py-3 z-20 shrink-0">
       <div className="flex items-center gap-8">
@@ -13,24 +18,26 @@ export function Header() {
           </h2>
         </div>
         <div className="hidden md:flex items-center gap-6">
-          <a
-            className="text-[#9db9a6] hover:text-white text-sm font-medium transition-colors"
-            href="#"
-          >
-            Home
-          </a>
-          <a
-            className="text-white text-sm font-medium transition-colors border-b-2 border-[#13ec5b] pb-0.5"
-            href="#"
+          <Link
+            href="/"
+            className={`text-sm font-medium transition-colors ${
+              pathname === "/"
+                ? "text-white border-b-2 border-[#13ec5b] pb-0.5"
+                : "text-[#9db9a6] hover:text-white"
+            }`}
           >
             Calculator
-          </a>
-          <a
-            className="text-[#9db9a6] hover:text-white text-sm font-medium transition-colors"
-            href="#"
+          </Link>
+          <Link
+            href="/database"
+            className={`text-sm font-medium transition-colors ${
+              pathname === "/database"
+                ? "text-white border-b-2 border-[#13ec5b] pb-0.5"
+                : "text-[#9db9a6] hover:text-white"
+            }`}
           >
             Database
-          </a>
+          </Link>
         </div>
       </div>
       <div className="flex items-center gap-4">
