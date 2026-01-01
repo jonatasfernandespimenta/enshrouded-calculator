@@ -58,11 +58,11 @@ async function fetchWithPlaywright(url: string): Promise<string> {
 /**
  * Extract recipe sections from the All_Recipes page
  */
-function extractRecipeSections($: cheerio.CheerioAPI): Array<{ category: string; tables: cheerio.Cheerio<cheerio.Element> }> {
-  const sections: Array<{ category: string; tables: cheerio.Cheerio<cheerio.Element> }> = [];
+function extractRecipeSections($: cheerio.CheerioAPI): Array<{ category: string; tables: any }> {
+  const sections: Array<{ category: string; tables: any }> = [];
   
   // Find all h2 headings (categories like "Alchemist Recipes", "Blacksmith Recipes")
-  $("h2").each((_, elem) => {
+  $("h2").each((_: any, elem: any) => {
     const heading = $(elem);
     const categoryText = heading.find(".mw-headline").text().trim();
     
@@ -86,14 +86,14 @@ function extractRecipeSections($: cheerio.CheerioAPI): Array<{ category: string;
  */
 function parseRecipeTable(
   $: cheerio.CheerioAPI,
-  table: cheerio.Cheerio<cheerio.Element>,
+  table: any,
   category: string,
   itemsMap: Map<string, Item>,
   recipesArray: Recipe[]
 ): void {
   const rows = table.find("tbody tr").slice(1); // Skip header row
   
-  rows.each((_, row) => {
+  rows.each((_: any, row: any) => {
     try {
       const cells = $(row).find("td");
       
@@ -238,7 +238,7 @@ async function scrapeRecipes(options: ScraperOptions = {}): Promise<RecipeBook> 
   for (const { category, tables } of sections) {
     console.log(`Processing: ${category}`);
     
-    tables.each((_, table) => {
+    tables.each((_: any, table: any) => {
       parseRecipeTable($, $(table), category, itemsMap, recipesArray);
     });
   }

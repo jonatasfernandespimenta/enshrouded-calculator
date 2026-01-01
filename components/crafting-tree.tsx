@@ -20,8 +20,8 @@ import type { CraftingTreeNode } from "@/lib/resolveCrafting";
 import { Input } from "./ui/input";
 
 const nodeTypes = {
-  crafting: CraftingNode,
-};
+  crafting: CraftingNode as any,
+} as const;
 
 // Helper to assign positions in a tree layout
 function convertTreeToReactFlow(tree: CraftingTreeNode | null) {

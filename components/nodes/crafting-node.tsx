@@ -16,8 +16,8 @@ interface CraftingNodeData {
   source?: string;
 }
 
-export const CraftingNode = memo(({ data }: NodeProps<CraftingNodeData>) => {
-  const { name, quantity, required, icon, iconBg, iconColor, status, craftStation, progress, source } = data;
+export const CraftingNode = memo(({ data }: NodeProps) => {
+  const { name, quantity, required, icon, iconBg, iconColor, status, craftStation, progress, source } = data as unknown as CraftingNodeData;
 
   const getNodeStyle = () => {
     switch (status) {
