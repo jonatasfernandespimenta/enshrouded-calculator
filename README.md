@@ -1,30 +1,54 @@
 # Enshrouded Crafting Calculator
 
-Uma calculadora visual de crafting para o jogo Enshrouded, com árvore de dependências interativa construída com Next.js, React Flow, Tailwind CSS e shadcn/ui.
+Uma calculadora de crafting completa para o jogo Enshrouded, com cálculo recursivo de materiais, busca inteligente e tracking de progresso. Construída com Next.js, TypeScript, Tailwind CSS e shadcn/ui.
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?style=flat-square&logo=tailwind-css)
+![Tests Passing](https://img.shields.io/badge/tests-16%20passing-success?style=flat-square)
 
 ## 🚀 Funcionalidades
 
-- **Árvore de Crafting Interativa**: Visualize toda a cadeia de dependências de crafting usando React Flow
-- **Catálogo de Itens**: Navegue por categorias de itens (Armas, Armaduras, Itens Mágicos, etc.)
-- **Lista de Materiais**: Acompanhe todos os materiais necessários com checkboxes
-- **Progresso de Coleta**: Visualize o progresso de coleta de materiais com indicador circular
-- **Design Dark Mode**: Interface escura temática inspirada no jogo Enshrouded
-- **Nós Customizados**: Três tipos de nós (Target, Sub-craft, Raw Material) com estilos distintos
-- **Zoom e Pan**: Navegue pela árvore com zoom e arrastar
+### ✨ Core Features
+- **Cálculo Recursivo de Materiais**: Algoritmo determinístico que calcula toda a árvore de dependências
+- **Multiplicação Correta**: Suporta receitas com `outputQuantity > 1` (ex: 2 barras por craft)
+- **Busca Inteligente**: Autocomplete com Fuse.js, navegação por teclado (arrows, enter, esc)
+- **Árvore Colapsável**: Visualize dependências com expand/collapse, expand all, collapse all
+- **Tracking de Progresso**: Marque materiais coletados e veja progresso em tempo real
+- **Persistência**: Estado salvo no localStorage (itens selecionados, progresso, preferências)
+
+### 🎯 Filtros e Visualizações
+- **Base Materials Only**: Filtre apenas materiais não-craftáveis
+- **Group by Station**: Agrupe materiais por estação de crafting
+- **Categorias Dinâmicas**: Navegue por categorias (Magical Items, Materials, Production Places)
+- **Quantidade Ajustável**: Defina quantidade desejada e veja cálculos automáticos
+
+### 🎨 UI/UX
+- **Design Dark Mode**: Tema inspirado no Enshrouded com cores customizadas
+- **Indicadores Visuais**: Cores distintas para estações (forge, kiln, alchemist, etc.)
+- **Copiar Lista**: Botão para copiar lista de materiais para clipboard
 - **Responsivo**: Layout adaptável para diferentes tamanhos de tela
 
 ## 🛠️ Tecnologias
 
+### Frontend
 - **Next.js 16** - Framework React com App Router e Turbopack
-- **TypeScript** - Tipagem estática
+- **TypeScript** - Tipagem estática completa
 - **Tailwind CSS 4** - Estilização utility-first
 - **shadcn/ui** - Componentes de UI acessíveis (Button, Input, Checkbox)
-- **React Flow (@xyflow/react)** - Biblioteca para criação de fluxos e diagramas interativos
 - **Material Symbols** - Ícones do Google
+
+### Estado e Lógica
+- **Zustand** - Gerenciamento de estado global com persistência
+- **Fuse.js** - Busca fuzzy para autocomplete
+- **Zod** - Validação de schemas e tipos runtime
+
+### Scraping e Dados
+- **Cheerio** - Parsing de HTML para scraping
+- **Playwright** - Fallback para sites com JavaScript
+
+### Testes
+- **Vitest** - Framework de testes unitários (16 testes passando)
 
 ## 📦 Instalação
 
@@ -41,25 +65,31 @@ npm run dev
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-## 🏗️ Estrutura do Projeto
+## 🏭️ Estrutura do Projeto
 
 ```
 enshrouded-calculator/
 ├── app/
-│   ├── layout.tsx          # Layout principal com dark mode e fontes
-│   ├── page.tsx            # Página principal com layout
-│   └── globals.css         # Estilos globais e tema customizado
+│   ├── layout.tsx          # Layout principal com dark mode
+│   ├── page.tsx            # Página principal
+│   └── globals.css         # Estilos globais e tema
 ├── components/
-│   ├── header.tsx          # Cabeçalho com navegação e busca
-│   ├── sidebar.tsx         # Sidebar com catálogo de itens
-│   ├── crafting-tree.tsx   # Componente principal da árvore React Flow
-│   ├── materials-list.tsx  # Lista de materiais com checkboxes
-│   └── nodes/
-│       └── crafting-node.tsx  # Nó customizado do React Flow
-└── components/ui/          # Componentes shadcn/ui
-    ├── button.tsx
-    ├── input.tsx
-    └── checkbox.tsx
+│   ├── header.tsx          # Cabeçalho com busca
+│   ├── sidebar.tsx         # Sidebar com categorias
+│   ├── search-bar.tsx      # Busca com Fuse.js
+│   ├── crafting-tree-view.tsx  # Árvore colapsável
+│   ├── materials-list.tsx  # Lista de materiais
+│   ├── recipes-provider.tsx # Provider para carregar dados
+│   └── ui/                 # shadcn/ui components
+├── lib/
+│   ├── schemas.ts          # Schemas Zod
+│   ├── resolveCrafting.ts  # Algoritmo de cálculo
+│   ├── resolveCrafting.test.ts # Testes
+│   └── store.ts            # Zustand store
+├── scripts/
+│   └── scrape-ign.ts       # Scraper do IGN Wiki
+└── data/
+    └── recipes.json        # Dados de receitas
 ```
 
 ## 🎨 Customização de Cores
@@ -77,11 +107,18 @@ Essas cores estão definidas em `app/globals.css` e podem ser ajustadas conforme
 
 ## 🎮 Como Usar
 
-1. **Navegue pelo Catálogo**: Use a sidebar esquerda para explorar categorias de itens
-2. **Visualize a Árvore**: A área central mostra a árvore de dependências de crafting
-3. **Controles de Zoom**: Use os botões no topo direito para zoom in/out ou centralizar
-4. **Marque Materiais**: Use a sidebar direita para marcar materiais coletados
-5. **Acompanhe Progresso**: Veja o indicador circular de progresso de coleta
+1. **Busque ou Navegue**: Use a busca (header) ou sidebar para encontrar itens
+2. **Selecione um Item**: Clique em qualquer item craftável
+3. **Ajuste Quantidade**: Defina quantos você quer craftar (input no topo da árvore)
+4. **Explore a Árvore**: Clique nos nós para expand/collapse dependências
+5. **Marque Progresso**: Use checkboxes na sidebar direita para marcar materiais coletados
+6. **Copie Lista**: Botão COPY para copiar lista de materiais
+7. **Filtre**: Toggle "Base materials only" para ver apenas materiais finais
+
+### Atalhos de Teclado (Busca)
+- **Arrow Down/Up**: Navegar resultados
+- **Enter**: Selecionar item
+- **Escape**: Fechar busca
 
 ## 📝 Scripts Disponíveis
 
@@ -113,16 +150,27 @@ npx shadcn@latest add dropdown-menu
 
 ## 🎯 Próximos Passos
 
-- [ ] Adicionar banco de dados com todos os itens do jogo
-- [ ] Implementar sistema de busca funcional
-- [ ] Salvar progresso localmente (localStorage)
-- [ ] Exportar lista de materiais (clipboard/arquivo)
-- [ ] Adicionar filtros por estação de crafting
-- [ ] Implementar cálculo dinâmico de quantidades
-- [ ] Adicionar tooltips com informações detalhadas dos itens
+### Funcionalidades Implementadas ✅
+- [x] Sistema de busca com autocomplete (Fuse.js)
+- [x] Cálculo recursivo de materiais
+- [x] Persistência no localStorage
+- [x] Exportar lista (clipboard)
+- [x] Filtros (base materials, by station)
+- [x] Cálculo dinâmico de quantidades
+- [x] Tracking de progresso
+- [x] Scraper para IGN Wiki
+
+### Roadmap Futuro 🛣️
+- [ ] Expandir recipes.json com todos os itens do jogo
+- [ ] Múltiplas receitas por item (recipe overrides UI)
+- [ ] Deep links (/item/[id]?qty=5)
+- [ ] Gráficos (Recharts): top materiais, por estação
+- [ ] Item details modal (receita completa, "used by")
+- [ ] Export para CSV/JSON
+- [ ] Modo claro (light theme)
 - [ ] Suporte para múltiplos idiomas
-- [ ] Modo multiplayer para calcular materiais em grupo
-- [ ] Integração com API do jogo (se disponível)
+- [ ] PWA (Progressive Web App)
+- [ ] Modo multiplayer (cálculo para grupo)
 
 ## 🐛 Troubleshooting
 

@@ -1,0 +1,221 @@
+{
+  "items": [
+    {
+      "id": "ancient-spire-teleport",
+      "name": "Ancient Spire Teleport",
+      "normalizedName": "ancient-spire-teleport",
+      "category": "Magical Items",
+      "iconUrl": "",
+      "craftable": true,
+      "description": "Teleportation device to Ancient Spire"
+    },
+    {
+      "id": "metal-sheets",
+      "name": "Metal Sheets",
+      "normalizedName": "metal-sheets",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fired-brick",
+      "name": "Fired Brick",
+      "normalizedName": "fired-brick",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-core",
+      "name": "Shroud Core",
+      "normalizedName": "shroud-core",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "metal-scraps",
+      "name": "Metal Scraps",
+      "normalizedName": "metal-scraps",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "charcoal",
+      "name": "Charcoal",
+      "normalizedName": "charcoal",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "clay-lump",
+      "name": "Clay Lump",
+      "normalizedName": "clay-lump",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "wood-logs",
+      "name": "Wood Logs",
+      "normalizedName": "wood-logs",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "shroud-spores",
+      "name": "Shroud Spores",
+      "normalizedName": "shroud-spores",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "shroud-liquid",
+      "name": "Shroud Liquid",
+      "normalizedName": "shroud-liquid",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "dirt",
+      "name": "Dirt",
+      "normalizedName": "dirt",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "stone",
+      "name": "Stone",
+      "normalizedName": "stone",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "iron-bars",
+      "name": "Iron Bars",
+      "normalizedName": "iron-bars",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "normalizedName": "forge",
+      "category": "Production Places",
+      "iconUrl": "",
+      "craftable": true,
+      "description": "A workplace that will enable new crafting possibilities for the Blacksmith"
+    },
+    {
+      "id": "smithing-tools",
+      "name": "Smithing Tools",
+      "normalizedName": "smithing-tools",
+      "category": "Production Places",
+      "iconUrl": "",
+      "craftable": true,
+      "description": "A collection of tools - the heart of every smithy"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "recipe-ancient-spire-teleport-alchemist",
+      "outputItemId": "ancient-spire-teleport",
+      "outputQuantity": 1,
+      "station": "alchemist",
+      "ingredients": [
+        { "itemId": "metal-sheets", "quantity": 10 },
+        { "itemId": "fired-brick", "quantity": 20 },
+        { "itemId": "shroud-core", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "recipe-metal-sheets-forge",
+      "outputItemId": "metal-sheets",
+      "outputQuantity": 1,
+      "station": "forge",
+      "ingredients": [
+        { "itemId": "metal-scraps", "quantity": 2 },
+        { "itemId": "charcoal", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "recipe-fired-brick-kiln",
+      "outputItemId": "fired-brick",
+      "outputQuantity": 1,
+      "station": "kiln",
+      "ingredients": [
+        { "itemId": "clay-lump", "quantity": 1 },
+        { "itemId": "wood-logs", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "recipe-shroud-core-alchemist",
+      "outputItemId": "shroud-core",
+      "outputQuantity": 1,
+      "station": "alchemist",
+      "ingredients": [
+        { "itemId": "shroud-spores", "quantity": 10 },
+        { "itemId": "shroud-liquid", "quantity": 10 }
+      ]
+    },
+    {
+      "id": "recipe-charcoal-kiln",
+      "outputItemId": "charcoal",
+      "outputQuantity": 1,
+      "station": "kiln",
+      "ingredients": [
+        { "itemId": "wood-logs", "quantity": 2 },
+        { "itemId": "dirt", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "recipe-forge-blacksmith",
+      "outputItemId": "forge",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        { "itemId": "stone", "quantity": 30 },
+        { "itemId": "metal-scraps", "quantity": 10 },
+        { "itemId": "charcoal", "quantity": 10 },
+        { "itemId": "wood-logs", "quantity": 12 }
+      ],
+      "requirements": "Blacksmith"
+    },
+    {
+      "id": "recipe-smithing-tools-blacksmith",
+      "outputItemId": "smithing-tools",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        { "itemId": "wood-logs", "quantity": 5 },
+        { "itemId": "iron-bars", "quantity": 5 }
+      ],
+      "requirements": "Blacksmith"
+    },
+    {
+      "id": "recipe-iron-bars-forge",
+      "outputItemId": "iron-bars",
+      "outputQuantity": 1,
+      "station": "forge",
+      "ingredients": [
+        { "itemId": "metal-scraps", "quantity": 3 },
+        { "itemId": "charcoal", "quantity": 1 }
+      ]
+    }
+  ],
+  "meta": {
+    "scrapedAt": "2026-01-01T20:45:00.000Z",
+    "version": "1.0.0",
+    "source": "https://www.ign.com/wikis/enshrouded/All_Recipes",
+    "totalItems": 15,
+    "totalRecipes": 8
+  }
+}

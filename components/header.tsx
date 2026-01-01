@@ -1,4 +1,4 @@
-import { Input } from "@/components/ui/input";
+import { SearchBar } from "@/components/search-bar";
 
 export function Header() {
   return (
@@ -34,14 +34,8 @@ export function Header() {
         </div>
       </div>
       <div className="flex items-center gap-4">
-        <div className="relative hidden sm:block">
-          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-[#9db9a6] material-symbols-outlined text-[20px]">
-            search
-          </span>
-          <Input
-            className="h-10 w-64 rounded-lg bg-[#1c2a21] pl-10 pr-4 text-sm text-white placeholder-[#9db9a6] focus:outline-none focus:ring-1 focus:ring-[#13ec5b] border border-transparent focus:border-[#13ec5b] transition-all"
-            placeholder="Search item..."
-          />
+        <div className="hidden sm:block">
+          <SearchBar />
         </div>
         <button className="flex size-10 items-center justify-center rounded-full bg-[#1c2a21] hover:bg-[#28392e] transition-colors">
           <span className="material-symbols-outlined text-[#9db9a6]">settings</span>

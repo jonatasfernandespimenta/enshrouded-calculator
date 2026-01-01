@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback } from "react";
+import { useCallback, useEffect, useMemo } from "react";
 import {
   ReactFlow,
   Background,
@@ -15,211 +15,143 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import { CraftingNode } from "./nodes/crafting-node";
+import { useAppStore } from "@/lib/store";
+import type { CraftingTreeNode } from "@/lib/resolveCrafting";
+import { Input } from "./ui/input";
 
 const nodeTypes = {
   crafting: CraftingNode,
 };
 
-const initialNodes: Node[] = [
-  {
-    id: "1",
-    type: "crafting",
-    position: { x: 400, y: 50 },
-    data: {
-      name: "Spire Teleport",
-      quantity: 1,
-      icon: "castle",
-      iconBg: "bg-indigo-900/50",
-      iconColor: "text-indigo-300",
-      status: "target",
-      craftStation: "Alchemist",
-      progress: "100% Ready",
-    },
-  },
-  // Level 2
-  {
-    id: "2",
-    type: "crafting",
-    position: { x: 100, y: 200 },
-    data: {
-      name: "Metal Sheets",
-      quantity: 20,
-      required: 10,
-      icon: "grid_on",
-      iconBg: "bg-slate-700/50",
-      iconColor: "text-slate-300",
-      status: "subcraft",
-      craftStation: "Forge",
-    },
-  },
-  {
-    id: "3",
-    type: "crafting",
-    position: { x: 400, y: 200 },
-    data: {
-      name: "Fired Brick",
-      quantity: 50,
-      required: 20,
-      icon: "filter_hdr",
-      iconBg: "bg-red-900/30",
-      iconColor: "text-red-400",
-      status: "subcraft",
-      craftStation: "Kiln",
-    },
-  },
-  {
-    id: "4",
-    type: "crafting",
-    position: { x: 700, y: 200 },
-    data: {
-      name: "Shroud Core",
-      quantity: 2,
-      required: 2,
-      icon: "all_inclusive",
-      iconBg: "bg-cyan-900/30",
-      iconColor: "text-cyan-400",
-      status: "subcraft",
-      craftStation: "Alchemist",
-    },
-  },
-  // Level 3
-  {
-    id: "5",
-    type: "crafting",
-    position: { x: 20, y: 350 },
-    data: {
-      name: "Metal Scraps",
-      quantity: 40,
-      icon: "recycling",
-      iconBg: "bg-stone-800",
-      iconColor: "text-stone-400",
-      status: "raw",
-      source: "Loot",
-    },
-  },
-  {
-    id: "6",
-    type: "crafting",
-    position: { x: 180, y: 350 },
-    data: {
-      name: "Charcoal",
-      quantity: 40,
-      icon: "local_fire_department",
-      iconBg: "bg-gray-800",
-      iconColor: "text-gray-400",
-      status: "subcraft",
-      craftStation: "Kiln",
-    },
-  },
-  {
-    id: "7",
-    type: "crafting",
-    position: { x: 320, y: 350 },
-    data: {
-      name: "Clay Lump",
-      quantity: 50,
-      icon: "water_drop",
-      iconBg: "bg-amber-800/40",
-      iconColor: "text-amber-500",
-      status: "raw",
-      source: "Gather",
-    },
-  },
-  {
-    id: "8",
-    type: "crafting",
-    position: { x: 460, y: 350 },
-    data: {
-      name: "Wood Logs",
-      quantity: 25,
-      icon: "forest",
-      iconBg: "bg-amber-900/30",
-      iconColor: "text-amber-600",
-      status: "raw",
-      source: "Gather",
-    },
-  },
-  {
-    id: "9",
-    type: "crafting",
-    position: { x: 620, y: 350 },
-    data: {
-      name: "Shroud Spores",
-      quantity: 20,
-      icon: "science",
-      iconBg: "bg-cyan-900/20",
-      iconColor: "text-cyan-300",
-      status: "raw",
-      source: "Loot",
-    },
-  },
-  {
-    id: "10",
-    type: "crafting",
-    position: { x: 780, y: 350 },
-    data: {
-      name: "Shroud Liquid",
-      quantity: 20,
-      icon: "water_drop",
-      iconBg: "bg-cyan-900/20",
-      iconColor: "text-cyan-300",
-      status: "raw",
-      source: "Gather",
-    },
-  },
-  // Level 4
-  {
-    id: "11",
-    type: "crafting",
-    position: { x: 140, y: 500 },
-    data: {
-      name: "Wood Logs",
-      quantity: 80,
-      icon: "forest",
-      iconBg: "bg-amber-900/30",
-      iconColor: "text-amber-600",
-      status: "raw",
-      source: "Gather",
-    },
-  },
-  {
-    id: "12",
-    type: "crafting",
-    position: { x: 240, y: 500 },
-    data: {
-      name: "Dirt",
-      quantity: 20,
-      icon: "landscape",
-      iconBg: "bg-stone-800",
-      iconColor: "text-stone-500",
-      status: "raw",
-      source: "Gather",
-    },
-  },
-];
+// Helper to assign positions in a tree layout
+function convertTreeToReactFlow(tree: CraftingTreeNode | null) {
+  if (!tree) return { nodes: [], edges: [] };
 
-const initialEdges: Edge[] = [
-  { id: "e1-2", source: "1", target: "2", animated: true, style: { stroke: "#28392e" } },
-  { id: "e1-3", source: "1", target: "3", animated: true, style: { stroke: "#28392e" } },
-  { id: "e1-4", source: "1", target: "4", animated: true, style: { stroke: "#28392e" } },
-  { id: "e2-5", source: "2", target: "5", style: { stroke: "#28392e" } },
-  { id: "e2-6", source: "2", target: "6", style: { stroke: "#28392e" } },
-  { id: "e3-7", source: "3", target: "7", style: { stroke: "#28392e" } },
-  { id: "e3-8", source: "3", target: "8", style: { stroke: "#28392e" } },
-  { id: "e4-9", source: "4", target: "9", style: { stroke: "#28392e" } },
-  { id: "e4-10", source: "4", target: "10", style: { stroke: "#28392e" } },
-  { id: "e6-11", source: "6", target: "11", style: { stroke: "#28392e" } },
-  { id: "e6-12", source: "6", target: "12", style: { stroke: "#28392e" } },
-];
+  const nodes: Node[] = [];
+  const edges: Edge[] = [];
+  let nodeIdCounter = 0;
+  const nodeMap = new Map<string, string>(); // treeNodeKey -> reactFlowId
+
+  const LEVEL_HEIGHT = 180;
+  const MIN_NODE_WIDTH = 250;
+
+  function traverse(
+    node: CraftingTreeNode,
+    depth: number,
+    parentId: string | null,
+    parentKey: string
+  ) {
+    const nodeKey = `${parentKey}-${node.itemId}-${nodeIdCounter}`;
+    const nodeId = `node-${nodeIdCounter++}`;
+    nodeMap.set(nodeKey, nodeId);
+
+    const isRaw = node.isBaseMaterial;
+    const isTarget = depth === 0;
+    const status = isTarget ? "target" : isRaw ? "raw" : "subcraft";
+
+    // Icon mapping (simplified)
+    let icon = "category";
+    let iconBg = "bg-slate-700/50";
+    let iconColor = "text-slate-300";
+
+    if (isTarget) {
+      icon = "flag";
+      iconBg = "bg-indigo-900/50";
+      iconColor = "text-indigo-300";
+    } else if (isRaw) {
+      icon = "inventory_2";
+      iconBg = "bg-stone-800";
+      iconColor = "text-stone-400";
+    } else {
+      icon = "construction";
+      iconBg = "bg-slate-700/50";
+      iconColor = "text-slate-300";
+    }
+
+    nodes.push({
+      id: nodeId,
+      type: "crafting",
+      position: { x: 0, y: depth * LEVEL_HEIGHT },
+      data: {
+        name: node.itemName,
+        quantity: node.requiredQuantity,
+        icon,
+        iconBg,
+        iconColor,
+        status,
+        craftStation: node.station || undefined,
+        source: isRaw ? "Gather" : undefined,
+      },
+    });
+
+    if (parentId) {
+      edges.push({
+        id: `e-${parentId}-${nodeId}`,
+        source: parentId,
+        target: nodeId,
+        animated: depth === 1,
+        style: { stroke: "#28392e" },
+      });
+    }
+
+    if (node.children && node.children.length > 0) {
+      node.children.forEach((child, idx) => {
+        traverse(child, depth + 1, nodeId, `${nodeKey}-${idx}`);
+      });
+    }
+  }
+
+  traverse(tree, 0, null, "root");
+
+  // Assign X positions using a simple algorithm
+  const levelNodes: Node[][] = [];
+  nodes.forEach((node) => {
+    const level = node.position.y / LEVEL_HEIGHT;
+    if (!levelNodes[level]) levelNodes[level] = [];
+    levelNodes[level].push(node);
+  });
+
+  levelNodes.forEach((levelNodesArray) => {
+    const totalWidth = levelNodesArray.length * MIN_NODE_WIDTH;
+    levelNodesArray.forEach((node, idx) => {
+      node.position.x = idx * MIN_NODE_WIDTH - totalWidth / 2 + 400;
+    });
+  });
+
+  return { nodes, edges };
+}
 
 export function CraftingTree() {
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
-  const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
+  const craftingResult = useAppStore((s) => s.craftingResult);
+  const selectedItem = useAppStore((s) => s.selectedItem);
+  const targetQuantity = useAppStore((s) => s.targetQuantity);
+  const setTargetQuantity = useAppStore((s) => s.setTargetQuantity);
+
+  const { nodes: convertedNodes, edges: convertedEdges } = useMemo(
+    () => convertTreeToReactFlow(craftingResult?.tree || null),
+    [craftingResult]
+  );
+
+  const [nodes, setNodes, onNodesChange] = useNodesState([]);
+  const [edges, setEdges, onEdgesChange] = useEdgesState([]);
+
+  useEffect(() => {
+    setNodes(convertedNodes);
+    setEdges(convertedEdges);
+  }, [convertedNodes, convertedEdges, setNodes, setEdges]);
 
   const onConnect: OnConnect = useCallback(
     (connection) => setEdges((eds) => addEdge(connection, eds)),
     [setEdges]
   );
+
+  if (!selectedItem || !craftingResult) {
+    return (
+      <div className="flex-1 bg-[#0b100d] flex items-center justify-center">
+        <p className="text-[#9db9a6] text-lg">Select an item to view crafting tree</p>
+      </div>
+    );
+  }
 
   return (
     <main className="flex-1 bg-[#0b100d] relative overflow-hidden flex flex-col">
@@ -228,36 +160,35 @@ export function CraftingTree() {
         <div className="pointer-events-auto bg-[#111813]/90 backdrop-blur-md border border-[#28392e] rounded-lg p-4 shadow-xl max-w-md">
           <div className="flex items-start gap-4">
             <div className="size-14 rounded-md bg-gradient-to-br from-purple-900 to-indigo-900 border border-white/10 flex items-center justify-center shrink-0 shadow-lg shadow-purple-900/20">
-              <span className="material-symbols-outlined text-white text-3xl">castle</span>
+              <span className="material-symbols-outlined text-white text-3xl">flag</span>
             </div>
             <div>
               <h1 className="text-2xl font-bold text-white leading-none mb-1">
-                Ancient Spire Teleport
+                {craftingResult.itemName}
               </h1>
               <div className="flex items-center gap-2 text-xs text-[#9db9a6]">
                 <span className="bg-[#13ec5b]/20 text-[#13ec5b] px-1.5 py-0.5 rounded">
-                  Legendary
+                  Target Item
                 </span>
-                <span>•</span>
-                <span>Base Item</span>
-                <span>•</span>
-                <span className="flex items-center gap-1">
-                  <span className="material-symbols-outlined text-[14px]">timer</span> 20m
-                </span>
+                {craftingResult.station && (
+                  <>
+                    <span>•</span>
+                    <span className="capitalize">{craftingResult.station}</span>
+                  </>
+                )}
+              </div>
+              <div className="flex items-center gap-2 mt-2">
+                <label className="text-xs text-[#9db9a6]">Qty:</label>
+                <Input
+                  type="number"
+                  min="1"
+                  value={targetQuantity}
+                  onChange={(e) => setTargetQuantity(Number(e.target.value) || 1)}
+                  className="w-20 h-7 text-xs bg-[#0b100d] border-[#28392e] text-white"
+                />
               </div>
             </div>
           </div>
-        </div>
-        <div className="pointer-events-auto flex gap-2">
-          <button className="bg-[#111813] border border-[#28392e] text-[#9db9a6] hover:text-white hover:border-[#13ec5b] p-2 rounded-lg shadow-lg transition-all">
-            <span className="material-symbols-outlined">remove</span>
-          </button>
-          <button className="bg-[#111813] border border-[#28392e] text-[#9db9a6] hover:text-white hover:border-[#13ec5b] p-2 rounded-lg shadow-lg transition-all">
-            <span className="material-symbols-outlined">add</span>
-          </button>
-          <button className="bg-[#111813] border border-[#28392e] text-[#9db9a6] hover:text-white hover:border-[#13ec5b] p-2 rounded-lg shadow-lg transition-all">
-            <span className="material-symbols-outlined">center_focus_strong</span>
-          </button>
         </div>
       </div>
 

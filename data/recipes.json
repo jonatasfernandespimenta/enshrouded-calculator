@@ -1,0 +1,5888 @@
+{
+  "items": [
+    {
+      "id": "ancient-spire-teleport",
+      "name": "Ancient Spire Teleport",
+      "normalizedName": "ancient-spire-teleport",
+      "category": "Magical Items",
+      "iconUrl": "",
+      "craftable": true,
+      "description": "Teleportation device to Ancient Spire"
+    },
+    {
+      "id": "grappling-hook-pull-anchor",
+      "name": "Grappling Hook Pull Anchor",
+      "normalizedName": "grappling-hook-pull-anchor",
+      "category": "Essentials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "grappling-hook-swing-anchor",
+      "name": "Grappling Hook Swing Anchor",
+      "normalizedName": "grappling-hook-swing-anchor",
+      "category": "Essentials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "lockpick",
+      "name": "Lockpick",
+      "normalizedName": "lockpick",
+      "category": "Supplies",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "scrappy-sword",
+      "name": "Scrappy Sword",
+      "normalizedName": "scrappy-sword",
+      "category": "Weapons - One-Handed",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "copper-axe",
+      "name": "Copper Axe",
+      "normalizedName": "copper-axe",
+      "category": "Survival - Felling Axes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "bronze-axe",
+      "name": "Bronze Axe",
+      "normalizedName": "bronze-axe",
+      "category": "Survival - Felling Axes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "iron-axe",
+      "name": "Iron Axe",
+      "normalizedName": "iron-axe",
+      "category": "Survival - Felling Axes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "steel-axe",
+      "name": "Steel Axe",
+      "normalizedName": "steel-axe",
+      "category": "Survival - Felling Axes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "copper-pickaxe",
+      "name": "Copper Pickaxe",
+      "normalizedName": "copper-pickaxe",
+      "category": "Survival - Pickaxes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "iron-pickaxe",
+      "name": "Iron Pickaxe",
+      "normalizedName": "iron-pickaxe",
+      "category": "Survival - Pickaxes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "steel-pickaxe",
+      "name": "Steel Pickaxe",
+      "normalizedName": "steel-pickaxe",
+      "category": "Survival - Pickaxes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "spiked-club",
+      "name": "Spiked Club",
+      "normalizedName": "spiked-club",
+      "category": "Weapons - One-Handed",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "metal-sheets",
+      "name": "Metal Sheets",
+      "normalizedName": "metal-sheets",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "copper-bar",
+      "name": "Copper Bar",
+      "normalizedName": "copper-bar",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "bronze-bars",
+      "name": "Bronze Bars",
+      "normalizedName": "bronze-bars",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "iron-bars",
+      "name": "Iron Bars",
+      "normalizedName": "iron-bars",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "steel-bars",
+      "name": "Steel Bars",
+      "normalizedName": "steel-bars",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "nails",
+      "name": "Nails",
+      "normalizedName": "nails",
+      "category": "Resources",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fired-brick",
+      "name": "Fired Brick",
+      "normalizedName": "fired-brick",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fire-brick",
+      "name": "Fire Brick",
+      "normalizedName": "fire-brick",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-core",
+      "name": "Shroud Core",
+      "normalizedName": "shroud-core",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "metal-scraps",
+      "name": "Metal Scraps",
+      "normalizedName": "metal-scraps",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "charcoal",
+      "name": "Charcoal",
+      "normalizedName": "charcoal",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "lump-of-clay",
+      "name": "Lump of Clay",
+      "normalizedName": "lump-of-clay",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "wood-logs",
+      "name": "Wood Logs",
+      "normalizedName": "wood-logs",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "hardwood",
+      "name": "Hardwood",
+      "normalizedName": "hardwood",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "string",
+      "name": "String",
+      "normalizedName": "string",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "linen",
+      "name": "Linen",
+      "normalizedName": "linen",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-spores",
+      "name": "Shroud Spores",
+      "normalizedName": "shroud-spores",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "shroud-liquid",
+      "name": "Shroud Liquid",
+      "normalizedName": "shroud-liquid",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "dirt",
+      "name": "Dirt",
+      "normalizedName": "dirt",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "stone",
+      "name": "Stone",
+      "normalizedName": "stone",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "sand",
+      "name": "Sand",
+      "normalizedName": "sand",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "bellows",
+      "name": "Bellows",
+      "normalizedName": "bellows",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "crucible",
+      "name": "Crucible",
+      "normalizedName": "crucible",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "normalizedName": "forge",
+      "category": "Production Places",
+      "iconUrl": "",
+      "craftable": true,
+      "description": "A workplace that will enable new crafting possibilities"
+    },
+    {
+      "id": "smithing-tools",
+      "name": "Smithing Tools",
+      "normalizedName": "smithing-tools",
+      "category": "Production Places",
+      "iconUrl": "",
+      "craftable": true,
+      "description": "A collection of tools - the heart of every smithy"
+    },
+    {
+      "id": "smelter",
+      "name": "Smelter",
+      "normalizedName": "smelter",
+      "category": "Production Places",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "charcoal-kiln",
+      "name": "Charcoal Kiln",
+      "normalizedName": "charcoal-kiln",
+      "category": "Production Places",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "blast-furnace",
+      "name": "Blast Furnace",
+      "normalizedName": "blast-furnace",
+      "category": "Production Places",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mining-sieve",
+      "name": "Mining Sieve",
+      "normalizedName": "mining-sieve",
+      "category": "Essentials - Water Utilities",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "palm-wood-logs",
+      "name": "Palm Wood Logs",
+      "normalizedName": "palm-wood-logs",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "wax",
+      "name": "Wax",
+      "normalizedName": "wax",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "plant-fiber",
+      "name": "Plant Fiber",
+      "normalizedName": "plant-fiber",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "water-channeling-tool",
+      "name": "Water Channeling Tool",
+      "normalizedName": "water-channeling-tool",
+      "category": "Essentials - Water Utilities",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "leather",
+      "name": "Leather",
+      "normalizedName": "leather",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "wood-planks",
+      "name": "Wood Planks",
+      "normalizedName": "wood-planks",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "watering-can",
+      "name": "Watering Can",
+      "normalizedName": "watering-can",
+      "category": "Essentials - Water Utilities",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "copper-bars",
+      "name": "Copper Bars",
+      "normalizedName": "copper-bars",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "coal-powder",
+      "name": "Coal Powder",
+      "normalizedName": "coal-powder",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "legendary-runes",
+      "name": "Legendary Runes",
+      "normalizedName": "legendary-runes",
+      "category": "Resources",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "advanced-rake",
+      "name": "Advanced Rake",
+      "normalizedName": "advanced-rake",
+      "category": "Survival - Unassorted",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rake",
+      "name": "Rake",
+      "normalizedName": "rake",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "scrappy-axe",
+      "name": "Scrappy Axe",
+      "normalizedName": "scrappy-axe",
+      "category": "Survival - Felling Axes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-wood",
+      "name": "Shroud Wood",
+      "normalizedName": "shroud-wood",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "gilded-axe",
+      "name": "Gilded Axe",
+      "normalizedName": "gilded-axe",
+      "category": "Survival - Felling Axes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "gold-bars",
+      "name": "Gold Bars",
+      "normalizedName": "gold-bars",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "scrappy-pickaxe",
+      "name": "Scrappy Pickaxe",
+      "normalizedName": "scrappy-pickaxe",
+      "category": "Survival - Pickaxes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "bronze-pickaxe",
+      "name": "Bronze Pickaxe",
+      "normalizedName": "bronze-pickaxe",
+      "category": "Survival - Pickaxes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "gilded-pickaxe",
+      "name": "Gilded Pickaxe",
+      "normalizedName": "gilded-pickaxe",
+      "category": "Survival - Pickaxes",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "enhanced-spiked-club",
+      "name": "Enhanced Spiked Club",
+      "normalizedName": "enhanced-spiked-club",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mace-like-club",
+      "name": "Mace-like Club",
+      "normalizedName": "mace-like-club",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "iron-claw-club",
+      "name": "Iron Claw Club",
+      "normalizedName": "iron-claw-club",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "hailscourge",
+      "name": "Hailscourge",
+      "normalizedName": "hailscourge",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "glow-dust",
+      "name": "Glow Dust",
+      "normalizedName": "glow-dust",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "brittle-shroud-petals",
+      "name": "Brittle Shroud Petals",
+      "normalizedName": "brittle-shroud-petals",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "tropical-wood",
+      "name": "Tropical Wood",
+      "normalizedName": "tropical-wood",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "jezminas-apotheosis",
+      "name": "Jezmina's Apotheosis",
+      "normalizedName": "jezminas-apotheosis",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "calla-luna",
+      "name": "Calla Luna",
+      "normalizedName": "calla-luna",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "amber",
+      "name": "Amber",
+      "normalizedName": "amber",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "lupas-scalper",
+      "name": "Lupa's Scalper",
+      "normalizedName": "lupas-scalper",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "hardened-leather",
+      "name": "Hardened Leather",
+      "normalizedName": "hardened-leather",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "dragon-sword",
+      "name": "Dragon Sword",
+      "normalizedName": "dragon-sword",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "tin-bars",
+      "name": "Tin Bars",
+      "normalizedName": "tin-bars",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "resin",
+      "name": "Resin",
+      "normalizedName": "resin",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "tar",
+      "name": "Tar",
+      "normalizedName": "tar",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "dragonsbane",
+      "name": "Dragonsbane",
+      "normalizedName": "dragonsbane",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "flammable-good",
+      "name": "Flammable Good",
+      "normalizedName": "flammable-good",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "obsidian-dust",
+      "name": "Obsidian Dust",
+      "normalizedName": "obsidian-dust",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "greater-golden-twinflame-sword",
+      "name": "Greater Golden Twinflame Sword",
+      "normalizedName": "greater-golden-twinflame-sword",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "coal",
+      "name": "Coal",
+      "normalizedName": "coal",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "coppers-bars",
+      "name": "Coppers Bars",
+      "normalizedName": "coppers-bars",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "aquamarine",
+      "name": "Aquamarine",
+      "normalizedName": "aquamarine",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fenrigs-axe",
+      "name": "Fenrig's Axe",
+      "normalizedName": "fenrigs-axe",
+      "category": "Weapons - One-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "bamboo-logs",
+      "name": "Bamboo Logs",
+      "normalizedName": "bamboo-logs",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "soothsayer",
+      "name": "Soothsayer",
+      "normalizedName": "soothsayer",
+      "category": "Weapons - Two-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "conifer-logs",
+      "name": "Conifer Logs",
+      "normalizedName": "conifer-logs",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "ancestral-star",
+      "name": "Ancestral Star",
+      "normalizedName": "ancestral-star",
+      "category": "Weapons - Two-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "golden-recruit-axe",
+      "name": "Golden Recruit Axe",
+      "normalizedName": "golden-recruit-axe",
+      "category": "Weapons - Two-Handed Weapons",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rising-fighter-shield",
+      "name": "Rising Fighter Shield",
+      "normalizedName": "rising-fighter-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "valiant-shield",
+      "name": "Valiant Shield",
+      "normalizedName": "valiant-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "heros-shield",
+      "name": "Hero's Shield",
+      "normalizedName": "heros-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "guardian-shield",
+      "name": "Guardian Shield",
+      "normalizedName": "guardian-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mercenary-shield",
+      "name": "Mercenary Shield",
+      "normalizedName": "mercenary-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shield-of-light",
+      "name": "Shield of Light",
+      "normalizedName": "shield-of-light",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "padding",
+      "name": "Padding",
+      "normalizedName": "padding",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "soldier-shield",
+      "name": "Soldier Shield",
+      "normalizedName": "soldier-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rogue-shield",
+      "name": "Rogue Shield",
+      "normalizedName": "rogue-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "luminous-growth",
+      "name": "Luminous Growth",
+      "normalizedName": "luminous-growth",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "brazen-bull-shield",
+      "name": "Brazen Bull Shield",
+      "normalizedName": "brazen-bull-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "amethyst",
+      "name": "Amethyst",
+      "normalizedName": "amethyst",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mountains-shadow-shield",
+      "name": "Mountain's Shadow Shield",
+      "normalizedName": "mountains-shadow-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "wolfs-fang-shield",
+      "name": "Wolf's Fang Shield",
+      "normalizedName": "wolfs-fang-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "silver-bars",
+      "name": "Silver Bars",
+      "normalizedName": "silver-bars",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "riptide",
+      "name": "Riptide",
+      "normalizedName": "riptide",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "drak-scales",
+      "name": "Drak Scales",
+      "normalizedName": "drak-scales",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "pikemeads-bulwark",
+      "name": "Pikemead's Bulwark",
+      "normalizedName": "pikemeads-bulwark",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-radiance",
+      "name": "Shroud Radiance",
+      "normalizedName": "shroud-radiance",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "aquamarine-dust",
+      "name": "Aquamarine Dust",
+      "normalizedName": "aquamarine-dust",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "golden-bulwark-shield",
+      "name": "Golden Bulwark Shield",
+      "normalizedName": "golden-bulwark-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "piscine-ivory-dust",
+      "name": "Piscine Ivory Dust",
+      "normalizedName": "piscine-ivory-dust",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "normalizedName": "obsidian",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "drak-teeth",
+      "name": "Drak Teeth",
+      "normalizedName": "drak-teeth",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "sunpiercer-shield",
+      "name": "Sunpiercer Shield",
+      "normalizedName": "sunpiercer-shield",
+      "category": "Weapons - Shields",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "cauldron",
+      "name": "Cauldron",
+      "normalizedName": "cauldron",
+      "category": "Tools and Components",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "bonemeal",
+      "name": "Bonemeal",
+      "normalizedName": "bonemeal",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "masonry-tools",
+      "name": "Masonry Tools",
+      "normalizedName": "masonry-tools",
+      "category": "Tools and Components",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "springlands-dirt",
+      "name": "Springlands Dirt",
+      "normalizedName": "springlands-dirt",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": false
+    },
+    {
+      "id": "circular-sawblades",
+      "name": "Circular Sawblades",
+      "normalizedName": "circular-sawblades",
+      "category": "Tools and Components",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "kettle",
+      "name": "Kettle",
+      "normalizedName": "kettle",
+      "category": "Tools and Components",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "greatsword-gauntlets",
+      "name": "Greatsword Gauntlets",
+      "normalizedName": "greatsword-gauntlets",
+      "category": "Armor - Unique Equipment",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "green-vitriol-dust",
+      "name": "Green Vitriol Dust",
+      "normalizedName": "green-vitriol-dust",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "capybara-bristles",
+      "name": "Capybara Bristles",
+      "normalizedName": "capybara-bristles",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "gold-dust",
+      "name": "Gold Dust",
+      "normalizedName": "gold-dust",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "red-fabric",
+      "name": "Red Fabric",
+      "normalizedName": "red-fabric",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "cursed-shroud-sack",
+      "name": "Cursed Shroud Sack",
+      "normalizedName": "cursed-shroud-sack",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "miner-helmet",
+      "name": "Miner Helmet",
+      "normalizedName": "miner-helmet",
+      "category": "Armor - Unique Equipment",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "underwater-luminous-growth",
+      "name": "Underwater Luminous Growth",
+      "normalizedName": "underwater-luminous-growth",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "gleam-root-dust",
+      "name": "Gleam Root Dust",
+      "normalizedName": "gleam-root-dust",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "golden-bulwark-helmet",
+      "name": "Golden Bulwark Helmet",
+      "normalizedName": "golden-bulwark-helmet",
+      "category": "Armor - Golden Bulwark",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "chitin-powder",
+      "name": "Chitin Powder",
+      "normalizedName": "chitin-powder",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "golden-bulwark-chest-plate",
+      "name": "Golden Bulwark Chest Plate",
+      "normalizedName": "golden-bulwark-chest-plate",
+      "category": "Armor - Golden Bulwark",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "bursting-fell-heart",
+      "name": "Bursting Fell Heart",
+      "normalizedName": "bursting-fell-heart",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "golden-bulwark-gloves",
+      "name": "Golden Bulwark Gloves",
+      "normalizedName": "golden-bulwark-gloves",
+      "category": "Armor - Golden Bulwark",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "golden-bulwark-pants",
+      "name": "Golden Bulwark Pants",
+      "normalizedName": "golden-bulwark-pants",
+      "category": "Armor - Golden Bulwark",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "palm-leaves",
+      "name": "Palm Leaves",
+      "normalizedName": "palm-leaves",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "pink-mushroom-meat",
+      "name": "Pink Mushroom Meat",
+      "normalizedName": "pink-mushroom-meat",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "corrupted-boar-tusk",
+      "name": "Corrupted Boar Tusk",
+      "normalizedName": "corrupted-boar-tusk",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "golden-bulwark-boots",
+      "name": "Golden Bulwark Boots",
+      "normalizedName": "golden-bulwark-boots",
+      "category": "Armor - Golden Bulwark",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "water-reptile-leather",
+      "name": "Water Reptile Leather",
+      "normalizedName": "water-reptile-leather",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-sludge",
+      "name": "Shroud Sludge",
+      "normalizedName": "shroud-sludge",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "sunpiercer-helmet",
+      "name": "Sunpiercer Helmet",
+      "normalizedName": "sunpiercer-helmet",
+      "category": "Armor - Sunpiercer",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "sunpiercer-chestplate",
+      "name": "Sunpiercer Chestplate",
+      "normalizedName": "sunpiercer-chestplate",
+      "category": "Armor - Sunpiercer",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "sunpiercer-gloves",
+      "name": "Sunpiercer Gloves",
+      "normalizedName": "sunpiercer-gloves",
+      "category": "Armor - Sunpiercer",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "sunpiercer-pants",
+      "name": "Sunpiercer Pants",
+      "normalizedName": "sunpiercer-pants",
+      "category": "Armor - Sunpiercer",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "normalizedName": "fabric",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "sunpiercer-shoes",
+      "name": "Sunpiercer Shoes",
+      "normalizedName": "sunpiercer-shoes",
+      "category": "Armor - Sunpiercer",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "brazen-bull-helmet",
+      "name": "Brazen Bull Helmet",
+      "normalizedName": "brazen-bull-helmet",
+      "category": "Armor - Brazen Bull Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "warm-padding",
+      "name": "Warm Padding",
+      "normalizedName": "warm-padding",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "enshrouded-ice",
+      "name": "Enshrouded Ice",
+      "normalizedName": "enshrouded-ice",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "brazen-bull-chest",
+      "name": "Brazen Bull Chest",
+      "normalizedName": "brazen-bull-chest",
+      "category": "Armor - Brazen Bull Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "brazen-bull-gloves",
+      "name": "Brazen Bull Gloves",
+      "normalizedName": "brazen-bull-gloves",
+      "category": "Armor - Brazen Bull Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "brazen-bull-trousers",
+      "name": "Brazen Bull Trousers",
+      "normalizedName": "brazen-bull-trousers",
+      "category": "Armor - Brazen Bull Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "brazen-bull-boots",
+      "name": "Brazen Bull Boots",
+      "normalizedName": "brazen-bull-boots",
+      "category": "Armor - Brazen Bull Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "wolfs-fang-hood",
+      "name": "Wolf's Fang Hood",
+      "normalizedName": "wolfs-fang-hood",
+      "category": "Armor - Wolf's Fang Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "enshrouded-cyclops-eye",
+      "name": "Enshrouded Cyclops Eye",
+      "normalizedName": "enshrouded-cyclops-eye",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "wolfs-fang-chest",
+      "name": "Wolf's Fang Chest",
+      "normalizedName": "wolfs-fang-chest",
+      "category": "Armor - Wolf's Fang Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "wolfs-fang-gloves",
+      "name": "Wolf's Fang Gloves",
+      "normalizedName": "wolfs-fang-gloves",
+      "category": "Armor - Wolf's Fang Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fossilized-bone-dust",
+      "name": "Fossilized Bone Dust",
+      "normalizedName": "fossilized-bone-dust",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "scales",
+      "name": "Scales",
+      "normalizedName": "scales",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "wolfs-fang-trousers",
+      "name": "Wolf's Fang Trousers",
+      "normalizedName": "wolfs-fang-trousers",
+      "category": "Armor - Wolf's Fang Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "wolfs-fang-boots",
+      "name": "Wolf's Fang Boots",
+      "normalizedName": "wolfs-fang-boots",
+      "category": "Armor - Wolf's Fang Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mountains-shadow-helmet",
+      "name": "Mountain's Shadow Helmet",
+      "normalizedName": "mountains-shadow-helmet",
+      "category": "Armor - Mountain's Shadow Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mountains-shadow-chest",
+      "name": "Mountain's Shadow Chest",
+      "normalizedName": "mountains-shadow-chest",
+      "category": "Armor - Mountain's Shadow Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mountains-shadow-gloves",
+      "name": "Mountain's Shadow Gloves",
+      "normalizedName": "mountains-shadow-gloves",
+      "category": "Armor - Mountain's Shadow Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mountains-shadow-trousers",
+      "name": "Mountain's Shadow Trousers",
+      "normalizedName": "mountains-shadow-trousers",
+      "category": "Armor - Mountain's Shadow Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mountains-shadow-boots",
+      "name": "Mountain's Shadow Boots",
+      "normalizedName": "mountains-shadow-boots",
+      "category": "Armor - Mountain's Shadow Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "warden-helmet",
+      "name": "Warden Helmet",
+      "normalizedName": "warden-helmet",
+      "category": "Armor - Warden Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "lapislazuli",
+      "name": "Lapislazuli",
+      "normalizedName": "lapislazuli",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "enshrouded-vulture-talon",
+      "name": "Enshrouded Vulture Talon",
+      "normalizedName": "enshrouded-vulture-talon",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "warden-chestplate",
+      "name": "Warden Chestplate",
+      "normalizedName": "warden-chestplate",
+      "category": "Armor - Warden Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fell-heart",
+      "name": "Fell Heart",
+      "normalizedName": "fell-heart",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "warden-gloves",
+      "name": "Warden Gloves",
+      "normalizedName": "warden-gloves",
+      "category": "Armor - Warden Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "warden-trousers",
+      "name": "Warden Trousers",
+      "normalizedName": "warden-trousers",
+      "category": "Armor - Warden Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-sand",
+      "name": "Shroud Sand",
+      "normalizedName": "shroud-sand",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "warden-boots",
+      "name": "Warden Boots",
+      "normalizedName": "warden-boots",
+      "category": "Armor - Warden Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mist-of-a-fell-sicklescythe",
+      "name": "Mist of a Fell Sicklescythe",
+      "normalizedName": "mist-of-a-fell-sicklescythe",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rogue-helmet",
+      "name": "Rogue Helmet",
+      "normalizedName": "rogue-helmet",
+      "category": "Armor - Rogue Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rogue-chestplate",
+      "name": "Rogue Chestplate",
+      "normalizedName": "rogue-chestplate",
+      "category": "Armor - Rogue Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rogue-gloves",
+      "name": "Rogue Gloves",
+      "normalizedName": "rogue-gloves",
+      "category": "Armor - Rogue Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rogue-trousers",
+      "name": "Rogue Trousers",
+      "normalizedName": "rogue-trousers",
+      "category": "Armor - Rogue Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "brittle-shroud-flakes",
+      "name": "Brittle Shroud Flakes",
+      "normalizedName": "brittle-shroud-flakes",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rogue-boots",
+      "name": "Rogue Boots",
+      "normalizedName": "rogue-boots",
+      "category": "Armor - Rogue Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "soldier-helmet",
+      "name": "Soldier Helmet",
+      "normalizedName": "soldier-helmet",
+      "category": "Armor - Soldier Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "soldier-chestplate",
+      "name": "Soldier Chestplate",
+      "normalizedName": "soldier-chestplate",
+      "category": "Armor - Soldier Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "soldier-gloves",
+      "name": "Soldier Gloves",
+      "normalizedName": "soldier-gloves",
+      "category": "Armor - Soldier Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "soldier-trousers",
+      "name": "Soldier Trousers",
+      "normalizedName": "soldier-trousers",
+      "category": "Armor - Soldier Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "soldier-boots",
+      "name": "Soldier Boots",
+      "normalizedName": "soldier-boots",
+      "category": "Armor - Soldier Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "blackguard-helmet",
+      "name": "Blackguard Helmet",
+      "normalizedName": "blackguard-helmet",
+      "category": "Armor - Blackguard Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "critter-glands",
+      "name": "Critter Glands",
+      "normalizedName": "critter-glands",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "monstrous-ribs",
+      "name": "Monstrous Ribs",
+      "normalizedName": "monstrous-ribs",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "blackguard-chest",
+      "name": "Blackguard Chest",
+      "normalizedName": "blackguard-chest",
+      "category": "Armor - Blackguard Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "blackguard-gloves",
+      "name": "Blackguard Gloves",
+      "normalizedName": "blackguard-gloves",
+      "category": "Armor - Blackguard Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "blackguard-trousers",
+      "name": "Blackguard Trousers",
+      "normalizedName": "blackguard-trousers",
+      "category": "Armor - Blackguard Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "blackguard-boots",
+      "name": "Blackguard Boots",
+      "normalizedName": "blackguard-boots",
+      "category": "Armor - Blackguard Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "guardian-helmet",
+      "name": "Guardian Helmet",
+      "normalizedName": "guardian-helmet",
+      "category": "Armor - Guardian Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "petrified-shroud-stalker-shell",
+      "name": "Petrified Shroud Stalker Shell",
+      "normalizedName": "petrified-shroud-stalker-shell",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "guardian-chestplate",
+      "name": "Guardian Chestplate",
+      "normalizedName": "guardian-chestplate",
+      "category": "Armor - Guardian Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "guardian-gloves",
+      "name": "Guardian Gloves",
+      "normalizedName": "guardian-gloves",
+      "category": "Armor - Guardian Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-adhesive",
+      "name": "Shroud Adhesive",
+      "normalizedName": "shroud-adhesive",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "guardian-trousers",
+      "name": "Guardian Trousers",
+      "normalizedName": "guardian-trousers",
+      "category": "Armor - Guardian Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "acidic-mycelium",
+      "name": "Acidic Mycelium",
+      "normalizedName": "acidic-mycelium",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "guardian-boots",
+      "name": "Guardian Boots",
+      "normalizedName": "guardian-boots",
+      "category": "Armor - Guardian Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "corrosive-blood",
+      "name": "Corrosive Blood",
+      "normalizedName": "corrosive-blood",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mercenary-helmet",
+      "name": "Mercenary Helmet",
+      "normalizedName": "mercenary-helmet",
+      "category": "Armor - Mercenary Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mercenary-chest",
+      "name": "Mercenary Chest",
+      "normalizedName": "mercenary-chest",
+      "category": "Armor - Mercenary Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mercenary-gloves",
+      "name": "Mercenary Gloves",
+      "normalizedName": "mercenary-gloves",
+      "category": "Armor - Mercenary Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "ammonia-gland",
+      "name": "Ammonia Gland",
+      "normalizedName": "ammonia-gland",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mercenary-trousers",
+      "name": "Mercenary Trousers",
+      "normalizedName": "mercenary-trousers",
+      "category": "Armor - Mercenary Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mint-mushroom-meat",
+      "name": "Mint Mushroom Meat",
+      "normalizedName": "mint-mushroom-meat",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mercenary-boots",
+      "name": "Mercenary Boots",
+      "normalizedName": "mercenary-boots",
+      "category": "Armor - Mercenary Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "tank-helmet",
+      "name": "Tank Helmet",
+      "normalizedName": "tank-helmet",
+      "category": "Armor - Tank Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "tank-chestplate",
+      "name": "Tank Chestplate",
+      "normalizedName": "tank-chestplate",
+      "category": "Armor - Tank Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "dried-fur",
+      "name": "Dried Fur",
+      "normalizedName": "dried-fur",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "giant-critter-scales",
+      "name": "Giant Critter Scales",
+      "normalizedName": "giant-critter-scales",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "tank-gloves",
+      "name": "Tank Gloves",
+      "normalizedName": "tank-gloves",
+      "category": "Armor - Tank Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-sack",
+      "name": "Shroud Sack",
+      "normalizedName": "shroud-sack",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "tank-trousers",
+      "name": "Tank Trousers",
+      "normalizedName": "tank-trousers",
+      "category": "Armor - Tank Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "shroud-mushroom",
+      "name": "Shroud Mushroom",
+      "normalizedName": "shroud-mushroom",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "tank-boots",
+      "name": "Tank Boots",
+      "normalizedName": "tank-boots",
+      "category": "Armor - Tank Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "adventurer-helmet",
+      "name": "Adventurer Helmet",
+      "normalizedName": "adventurer-helmet",
+      "category": "Armor - Adventurer Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "adventurer-chest",
+      "name": "Adventurer Chest",
+      "normalizedName": "adventurer-chest",
+      "category": "Armor - Adventurer Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "adventurer-gloves",
+      "name": "Adventurer Gloves",
+      "normalizedName": "adventurer-gloves",
+      "category": "Armor - Adventurer Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "adventurer-trousers",
+      "name": "Adventurer Trousers",
+      "normalizedName": "adventurer-trousers",
+      "category": "Armor - Adventurer Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "adventurer-boots",
+      "name": "Adventurer Boots",
+      "normalizedName": "adventurer-boots",
+      "category": "Armor - Adventurer Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rising-fighter-helmet",
+      "name": "Rising Fighter Helmet",
+      "normalizedName": "rising-fighter-helmet",
+      "category": "Armor - Rising Fighter Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "animal-fur",
+      "name": "Animal Fur",
+      "normalizedName": "animal-fur",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "aerated-banshee-gel",
+      "name": "Aerated Banshee Gel",
+      "normalizedName": "aerated-banshee-gel",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rising-fighter-chest",
+      "name": "Rising Fighter Chest",
+      "normalizedName": "rising-fighter-chest",
+      "category": "Armor - Rising Fighter Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "active-mycelium",
+      "name": "Active Mycelium",
+      "normalizedName": "active-mycelium",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rising-fighter-gloves",
+      "name": "Rising Fighter Gloves",
+      "normalizedName": "rising-fighter-gloves",
+      "category": "Armor - Rising Fighter Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rising-fighter-trousers",
+      "name": "Rising Fighter Trousers",
+      "normalizedName": "rising-fighter-trousers",
+      "category": "Armor - Rising Fighter Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "rising-fighter-boots",
+      "name": "Rising Fighter Boots",
+      "normalizedName": "rising-fighter-boots",
+      "category": "Armor - Rising Fighter Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "mycelium",
+      "name": "Mycelium",
+      "normalizedName": "mycelium",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fur-boots",
+      "name": "Fur Boots",
+      "normalizedName": "fur-boots",
+      "category": "Armor - Fur Armor Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "torn-cloth",
+      "name": "Torn Cloth",
+      "normalizedName": "torn-cloth",
+      "category": "Materials",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fur-chest",
+      "name": "Fur Chest",
+      "normalizedName": "fur-chest",
+      "category": "Armor - Fur Armor Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fur-gloves",
+      "name": "Fur Gloves",
+      "normalizedName": "fur-gloves",
+      "category": "Armor - Fur Armor Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fur-hood",
+      "name": "Fur Hood",
+      "normalizedName": "fur-hood",
+      "category": "Armor - Fur Armor Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fur-trousers",
+      "name": "Fur Trousers",
+      "normalizedName": "fur-trousers",
+      "category": "Armor - Fur Armor Set",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "iron-fireplace",
+      "name": "Iron Fireplace",
+      "normalizedName": "iron-fireplace",
+      "category": "Comfort - Fireplaces",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "urn",
+      "name": "Urn",
+      "normalizedName": "urn",
+      "category": "Decorative - Clutter",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "fire-bowl",
+      "name": "Fire Bowl",
+      "normalizedName": "fire-bowl",
+      "category": "Decorative - Clutter",
+      "iconUrl": "",
+      "craftable": true
+    },
+    {
+      "id": "jewelry-box",
+      "name": "Jewelry Box",
+      "normalizedName": "jewelry-box",
+      "category": "Decorative - Clutter",
+      "iconUrl": "",
+      "craftable": true
+    }
+  ],
+  "recipes": [
+    {
+      "id": "recipe-ancient-spire-teleport-alchemist",
+      "outputItemId": "ancient-spire-teleport",
+      "outputQuantity": 1,
+      "station": "alchemist",
+      "ingredients": [
+        {
+          "itemId": "metal-sheets",
+          "quantity": 10
+        },
+        {
+          "itemId": "fired-brick",
+          "quantity": 20
+        },
+        {
+          "itemId": "shroud-core",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-grappling-hook-pull-anchor-blacksmith",
+      "outputItemId": "grappling-hook-pull-anchor",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "metal-sheets",
+          "quantity": 3
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-grappling-hook-swing-anchor-blacksmith",
+      "outputItemId": "grappling-hook-swing-anchor",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "metal-sheets",
+          "quantity": 3
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-lockpick-blacksmith",
+      "outputItemId": "lockpick",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "metal-scraps",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-nails-blacksmith",
+      "outputItemId": "nails",
+      "outputQuantity": 2,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "metal-scraps",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-copper-axe-blacksmith",
+      "outputItemId": "copper-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "string",
+          "quantity": 3
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 4
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-bronze-axe-blacksmith",
+      "outputItemId": "bronze-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 3
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-iron-axe-blacksmith",
+      "outputItemId": "iron-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 3
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-steel-axe-blacksmith",
+      "outputItemId": "steel-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-copper-pickaxe-blacksmith",
+      "outputItemId": "copper-pickaxe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "copper-bar",
+          "quantity": 8
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-iron-pickaxe-blacksmith",
+      "outputItemId": "iron-pickaxe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "iron-bars",
+          "quantity": 8
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-steel-pickaxe-blacksmith",
+      "outputItemId": "steel-pickaxe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 8
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-spiked-club-blacksmith",
+      "outputItemId": "spiked-club",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "nails",
+          "quantity": 4
+        },
+        {
+          "itemId": "wood-logs",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-scrappy-sword-blacksmith",
+      "outputItemId": "scrappy-sword",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "wood-logs",
+          "quantity": 1
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 3
+        },
+        {
+          "itemId": "nails",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-metal-sheets-forge",
+      "outputItemId": "metal-sheets",
+      "outputQuantity": 1,
+      "station": "forge",
+      "ingredients": [
+        {
+          "itemId": "metal-scraps",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-copper-bar-smelter",
+      "outputItemId": "copper-bar",
+      "outputQuantity": 1,
+      "station": "smelter",
+      "ingredients": [
+        {
+          "itemId": "metal-scraps",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-bronze-bars-smelter",
+      "outputItemId": "bronze-bars",
+      "outputQuantity": 1,
+      "station": "smelter",
+      "ingredients": [
+        {
+          "itemId": "copper-bar",
+          "quantity": 1
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-iron-bars-smelter",
+      "outputItemId": "iron-bars",
+      "outputQuantity": 1,
+      "station": "smelter",
+      "ingredients": [
+        {
+          "itemId": "metal-scraps",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-steel-bars-blast-furnace",
+      "outputItemId": "steel-bars",
+      "outputQuantity": 1,
+      "station": "blast-furnace",
+      "ingredients": [
+        {
+          "itemId": "iron-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-fired-brick-kiln",
+      "outputItemId": "fired-brick",
+      "outputQuantity": 1,
+      "station": "kiln",
+      "ingredients": [
+        {
+          "itemId": "lump-of-clay",
+          "quantity": 1
+        },
+        {
+          "itemId": "wood-logs",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-fire-brick-kiln",
+      "outputItemId": "fire-brick",
+      "outputQuantity": 1,
+      "station": "kiln",
+      "ingredients": [
+        {
+          "itemId": "lump-of-clay",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-shroud-core-alchemist",
+      "outputItemId": "shroud-core",
+      "outputQuantity": 1,
+      "station": "alchemist",
+      "ingredients": [
+        {
+          "itemId": "shroud-spores",
+          "quantity": 10
+        },
+        {
+          "itemId": "shroud-liquid",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "recipe-charcoal-kiln",
+      "outputItemId": "charcoal",
+      "outputQuantity": 1,
+      "station": "kiln",
+      "ingredients": [
+        {
+          "itemId": "wood-logs",
+          "quantity": 2
+        },
+        {
+          "itemId": "dirt",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-blast-furnace-blacksmith",
+      "outputItemId": "blast-furnace",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "fire-brick",
+          "quantity": 20
+        },
+        {
+          "itemId": "bellows",
+          "quantity": 1
+        },
+        {
+          "itemId": "lump-of-clay",
+          "quantity": 10
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 10
+        },
+        {
+          "itemId": "sand",
+          "quantity": 30
+        }
+      ]
+    },
+    {
+      "id": "recipe-smithing-tools-blacksmith",
+      "outputItemId": "smithing-tools",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "wood-logs",
+          "quantity": 5
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-smelter-blacksmith",
+      "outputItemId": "smelter",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "fire-brick",
+          "quantity": 50
+        },
+        {
+          "itemId": "crucible",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-charcoal-kiln-blacksmith",
+      "outputItemId": "charcoal-kiln",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "stone",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "id": "recipe-forge-blacksmith",
+      "outputItemId": "forge",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "stone",
+          "quantity": 30
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 10
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 10
+        },
+        {
+          "itemId": "wood-logs",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": "recipe-mining-sieve-blacksmith-2",
+      "outputItemId": "mining-sieve",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "palm-wood-logs",
+          "quantity": 2
+        },
+        {
+          "itemId": "wax",
+          "quantity": 1
+        },
+        {
+          "itemId": "plant-fiber",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-water-channeling-tool-blacksmith-3",
+      "outputItemId": "water-channeling-tool",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "leather",
+          "quantity": 1
+        },
+        {
+          "itemId": "wood-planks",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-watering-can-blacksmith-4",
+      "outputItemId": "watering-can",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "charcoal",
+          "quantity": 4
+        },
+        {
+          "itemId": "copper-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "coal-powder",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-advanced-rake-blacksmith-13",
+      "outputItemId": "advanced-rake",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "rake",
+          "quantity": 1
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-scrappy-axe-blacksmith-14",
+      "outputItemId": "scrappy-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "string",
+          "quantity": 3
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 4
+        },
+        {
+          "itemId": "shroud-wood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-gilded-axe-blacksmith-19",
+      "outputItemId": "gilded-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "palm-wood-logs",
+          "quantity": 2
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-scrappy-pickaxe-blacksmith-20",
+      "outputItemId": "scrappy-pickaxe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "metal-scraps",
+          "quantity": 8
+        },
+        {
+          "itemId": "shroud-wood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-bronze-pickaxe-blacksmith-22",
+      "outputItemId": "bronze-pickaxe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 8
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-gilded-pickaxe-blacksmith-25",
+      "outputItemId": "gilded-pickaxe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 7
+        },
+        {
+          "itemId": "palm-wood-logs",
+          "quantity": 2
+        },
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-enhanced-spiked-club-blacksmith-28",
+      "outputItemId": "enhanced-spiked-club",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "copper-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 5
+        },
+        {
+          "itemId": "wood-logs",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-mace-like-club-blacksmith-29",
+      "outputItemId": "mace-like-club",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "wood-logs",
+          "quantity": 4
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-iron-claw-club-blacksmith-30",
+      "outputItemId": "iron-claw-club",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "iron-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "recipe-hailscourge-blacksmith-31",
+      "outputItemId": "hailscourge",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "glow-dust",
+          "quantity": 6
+        },
+        {
+          "itemId": "brittle-shroud-petals",
+          "quantity": 5
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-jezminas-apotheosis-blacksmith-32",
+      "outputItemId": "jezminas-apotheosis",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "calla-luna",
+          "quantity": 3
+        },
+        {
+          "itemId": "amber",
+          "quantity": 10
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-lupas-scalper-blacksmith-33",
+      "outputItemId": "lupas-scalper",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "hardened-leather",
+          "quantity": 2
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-dragon-sword-blacksmith-34",
+      "outputItemId": "dragon-sword",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "tin-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "resin",
+          "quantity": 8
+        },
+        {
+          "itemId": "tar",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "id": "recipe-dragonsbane-blacksmith-35",
+      "outputItemId": "dragonsbane",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "flammable-good",
+          "quantity": 3
+        },
+        {
+          "itemId": "obsidian-dust",
+          "quantity": 4
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-greater-golden-twinflame-sword-blacksmith-36",
+      "outputItemId": "greater-golden-twinflame-sword",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "coal",
+          "quantity": 5
+        },
+        {
+          "itemId": "coppers-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "aquamarine",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "recipe-fenrigs-axe-blacksmith-37",
+      "outputItemId": "fenrigs-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 8
+        },
+        {
+          "itemId": "bamboo-logs",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-soothsayer-blacksmith-38",
+      "outputItemId": "soothsayer",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "wood-planks",
+          "quantity": 14
+        },
+        {
+          "itemId": "conifer-logs",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-ancestral-star-blacksmith-39",
+      "outputItemId": "ancestral-star",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "conifer-logs",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-golden-recruit-axe-blacksmith-40",
+      "outputItemId": "golden-recruit-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 4
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 1
+        },
+        {
+          "itemId": "amber",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "recipe-mining-sieve-blacksmith",
+      "outputItemId": "mining-sieve",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "palm-wood-logs",
+          "quantity": 2
+        },
+        {
+          "itemId": "wax",
+          "quantity": 1
+        },
+        {
+          "itemId": "plant-fiber",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-water-channeling-tool-blacksmith",
+      "outputItemId": "water-channeling-tool",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "leather",
+          "quantity": 1
+        },
+        {
+          "itemId": "wood-planks",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-watering-can-blacksmith",
+      "outputItemId": "watering-can",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "charcoal",
+          "quantity": 4
+        },
+        {
+          "itemId": "copper-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "coal-powder",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-legendary-runes-blacksmith",
+      "outputItemId": "legendary-runes",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": []
+    },
+    {
+      "id": "recipe-advanced-rake-blacksmith",
+      "outputItemId": "advanced-rake",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "rake",
+          "quantity": 1
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-scrappy-axe-blacksmith",
+      "outputItemId": "scrappy-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "string",
+          "quantity": 3
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 4
+        },
+        {
+          "itemId": "shroud-wood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-gilded-axe-blacksmith",
+      "outputItemId": "gilded-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "palm-wood-logs",
+          "quantity": 2
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-scrappy-pickaxe-blacksmith",
+      "outputItemId": "scrappy-pickaxe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "metal-scraps",
+          "quantity": 8
+        },
+        {
+          "itemId": "shroud-wood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-bronze-pickaxe-blacksmith",
+      "outputItemId": "bronze-pickaxe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 8
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-gilded-pickaxe-blacksmith",
+      "outputItemId": "gilded-pickaxe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 7
+        },
+        {
+          "itemId": "palm-wood-logs",
+          "quantity": 2
+        },
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-enhanced-spiked-club-blacksmith",
+      "outputItemId": "enhanced-spiked-club",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "copper-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 5
+        },
+        {
+          "itemId": "wood-logs",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-mace-like-club-blacksmith",
+      "outputItemId": "mace-like-club",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "wood-logs",
+          "quantity": 4
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-iron-claw-club-blacksmith",
+      "outputItemId": "iron-claw-club",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "iron-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "recipe-hailscourge-blacksmith",
+      "outputItemId": "hailscourge",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "glow-dust",
+          "quantity": 6
+        },
+        {
+          "itemId": "brittle-shroud-petals",
+          "quantity": 5
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-jezminas-apotheosis-blacksmith",
+      "outputItemId": "jezminas-apotheosis",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "calla-luna",
+          "quantity": 3
+        },
+        {
+          "itemId": "amber",
+          "quantity": 10
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-lupas-scalper-blacksmith",
+      "outputItemId": "lupas-scalper",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "hardened-leather",
+          "quantity": 2
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-dragon-sword-blacksmith",
+      "outputItemId": "dragon-sword",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "tin-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "resin",
+          "quantity": 8
+        },
+        {
+          "itemId": "tar",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "id": "recipe-dragonsbane-blacksmith",
+      "outputItemId": "dragonsbane",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "flammable-good",
+          "quantity": 3
+        },
+        {
+          "itemId": "obsidian-dust",
+          "quantity": 4
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-greater-golden-twinflame-sword-blacksmith",
+      "outputItemId": "greater-golden-twinflame-sword",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "coal",
+          "quantity": 5
+        },
+        {
+          "itemId": "coppers-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "aquamarine",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "recipe-fenrigs-axe-blacksmith",
+      "outputItemId": "fenrigs-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 8
+        },
+        {
+          "itemId": "bamboo-logs",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-soothsayer-blacksmith",
+      "outputItemId": "soothsayer",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "wood-planks",
+          "quantity": 14
+        },
+        {
+          "itemId": "conifer-logs",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-ancestral-star-blacksmith",
+      "outputItemId": "ancestral-star",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "conifer-logs",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-golden-recruit-axe-blacksmith",
+      "outputItemId": "golden-recruit-axe",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 4
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 1
+        },
+        {
+          "itemId": "amber",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "recipe-rising-fighter-shield-blacksmith",
+      "outputItemId": "rising-fighter-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "string",
+          "quantity": 6
+        },
+        {
+          "itemId": "metal-sheets",
+          "quantity": 5
+        },
+        {
+          "itemId": "wood-logs",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-valiant-shield-blacksmith",
+      "outputItemId": "valiant-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 6
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 6
+        },
+        {
+          "itemId": "metal-sheets",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "recipe-heros-shield-blacksmith",
+      "outputItemId": "heros-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 5
+        },
+        {
+          "itemId": "copper-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-guardian-shield-blacksmith",
+      "outputItemId": "guardian-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "leather",
+          "quantity": 4
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "recipe-mercenary-shield-blacksmith",
+      "outputItemId": "mercenary-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "leather",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 5
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "hardwood",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-shield-of-light-blacksmith",
+      "outputItemId": "shield-of-light",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 1
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 8
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 8
+        },
+        {
+          "itemId": "padding",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-soldier-shield-blacksmith",
+      "outputItemId": "soldier-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 1
+        },
+        {
+          "itemId": "padding",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 8
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-rogue-shield-blacksmith",
+      "outputItemId": "rogue-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "iron-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 4
+        },
+        {
+          "itemId": "padding",
+          "quantity": 2
+        },
+        {
+          "itemId": "luminous-growth",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-brazen-bull-shield-blacksmith",
+      "outputItemId": "brazen-bull-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 2
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 8
+        },
+        {
+          "itemId": "coal",
+          "quantity": 8
+        },
+        {
+          "itemId": "amethyst",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-mountains-shadow-shield-blacksmith",
+      "outputItemId": "mountains-shadow-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 2
+        },
+        {
+          "itemId": "coal",
+          "quantity": 3
+        },
+        {
+          "itemId": "conifer-logs",
+          "quantity": 4
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-wolfs-fang-shield-blacksmith",
+      "outputItemId": "wolfs-fang-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "conifer-logs",
+          "quantity": 4
+        },
+        {
+          "itemId": "silver-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-riptide-blacksmith",
+      "outputItemId": "riptide",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "drak-scales",
+          "quantity": 2
+        },
+        {
+          "itemId": "tropical-wood",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-pikemeads-bulwark-blacksmith",
+      "outputItemId": "pikemeads-bulwark",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "shroud-radiance",
+          "quantity": 3
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "aquamarine-dust",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": "recipe-golden-bulwark-shield-blacksmith",
+      "outputItemId": "golden-bulwark-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "piscine-ivory-dust",
+          "quantity": 1
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "gold-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "aquamarine-dust",
+          "quantity": 4
+        },
+        {
+          "itemId": "obsidian",
+          "quantity": 3
+        },
+        {
+          "itemId": "drak-teeth",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-sunpiercer-shield-blacksmith",
+      "outputItemId": "sunpiercer-shield",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "piscine-ivory-dust",
+          "quantity": 1
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "gold-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "aquamarine-dust",
+          "quantity": 3
+        },
+        {
+          "itemId": "obsidian",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-bellows-blacksmith",
+      "outputItemId": "bellows",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "conifer-logs",
+          "quantity": 10
+        },
+        {
+          "itemId": "leather",
+          "quantity": 10
+        },
+        {
+          "itemId": "linen",
+          "quantity": 5
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-cauldron-blacksmith",
+      "outputItemId": "cauldron",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "iron-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "copper-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "bonemeal",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "id": "recipe-masonry-tools-blacksmith",
+      "outputItemId": "masonry-tools",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "charcoal",
+          "quantity": 6
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "wood-planks",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-crucible-blacksmith",
+      "outputItemId": "crucible",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "lump-of-clay",
+          "quantity": 3
+        },
+        {
+          "itemId": "springlands-dirt",
+          "quantity": 3
+        },
+        {
+          "itemId": "sand",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-circular-sawblades-blacksmith",
+      "outputItemId": "circular-sawblades",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "iron-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "recipe-kettle-blacksmith",
+      "outputItemId": "kettle",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "metal-sheets",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-greatsword-gauntlets-blacksmith",
+      "outputItemId": "greatsword-gauntlets",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "green-vitriol-dust",
+          "quantity": 5
+        },
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 2
+        },
+        {
+          "itemId": "gold-dust",
+          "quantity": 1
+        },
+        {
+          "itemId": "red-fabric",
+          "quantity": 1
+        },
+        {
+          "itemId": "cursed-shroud-sack",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-miner-helmet-blacksmith",
+      "outputItemId": "miner-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 2
+        },
+        {
+          "itemId": "underwater-luminous-growth",
+          "quantity": 5
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "gleam-root-dust",
+          "quantity": 5
+        },
+        {
+          "itemId": "aquamarine",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-golden-bulwark-helmet-blacksmith",
+      "outputItemId": "golden-bulwark-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 1
+        },
+        {
+          "itemId": "green-vitriol-dust",
+          "quantity": 5
+        },
+        {
+          "itemId": "gold-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "chitin-powder",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-golden-bulwark-chest-plate-blacksmith",
+      "outputItemId": "golden-bulwark-chest-plate",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 4
+        },
+        {
+          "itemId": "green-vitriol-dust",
+          "quantity": 6
+        },
+        {
+          "itemId": "gold-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "bursting-fell-heart",
+          "quantity": 1
+        },
+        {
+          "itemId": "red-fabric",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-golden-bulwark-gloves-blacksmith",
+      "outputItemId": "golden-bulwark-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "green-vitriol-dust",
+          "quantity": 5
+        },
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 2
+        },
+        {
+          "itemId": "gold-dust",
+          "quantity": 1
+        },
+        {
+          "itemId": "red-fabric",
+          "quantity": 1
+        },
+        {
+          "itemId": "cursed-shroud-sack",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-golden-bulwark-pants-blacksmith",
+      "outputItemId": "golden-bulwark-pants",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "palm-leaves",
+          "quantity": 4
+        },
+        {
+          "itemId": "pink-mushroom-meat",
+          "quantity": 50
+        },
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 4
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "corrupted-boar-tusk",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-golden-bulwark-boots-blacksmith",
+      "outputItemId": "golden-bulwark-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "water-reptile-leather",
+          "quantity": 6
+        },
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 2
+        },
+        {
+          "itemId": "gold-dust",
+          "quantity": 10
+        },
+        {
+          "itemId": "shroud-sludge",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-sunpiercer-helmet-blacksmith",
+      "outputItemId": "sunpiercer-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 1
+        },
+        {
+          "itemId": "palm-leaves",
+          "quantity": 5
+        },
+        {
+          "itemId": "green-vitriol-dust",
+          "quantity": 5
+        },
+        {
+          "itemId": "chitin-powder",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-sunpiercer-chestplate-blacksmith",
+      "outputItemId": "sunpiercer-chestplate",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 4
+        },
+        {
+          "itemId": "green-vitriol-dust",
+          "quantity": 10
+        },
+        {
+          "itemId": "water-reptile-leather",
+          "quantity": 2
+        },
+        {
+          "itemId": "gold-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "bursting-fell-heart",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-sunpiercer-gloves-blacksmith",
+      "outputItemId": "sunpiercer-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 2
+        },
+        {
+          "itemId": "gold-dust",
+          "quantity": 5
+        },
+        {
+          "itemId": "green-vitriol-dust",
+          "quantity": 2
+        },
+        {
+          "itemId": "cursed-shroud-sack",
+          "quantity": 1
+        },
+        {
+          "itemId": "water-reptile-leather",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-sunpiercer-pants-blacksmith",
+      "outputItemId": "sunpiercer-pants",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "fabric",
+          "quantity": 4
+        },
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 4
+        },
+        {
+          "itemId": "palm-leaves",
+          "quantity": 4
+        },
+        {
+          "itemId": "corrupted-boar-tusk",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-sunpiercer-shoes-blacksmith",
+      "outputItemId": "sunpiercer-shoes",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "steel-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "gold-dust",
+          "quantity": 10
+        },
+        {
+          "itemId": "capybara-bristles",
+          "quantity": 2
+        },
+        {
+          "itemId": "shroud-sludge",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-brazen-bull-helmet-blacksmith",
+      "outputItemId": "brazen-bull-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "obsidian",
+          "quantity": 2
+        },
+        {
+          "itemId": "coal",
+          "quantity": 4
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 3
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "amethyst",
+          "quantity": 3
+        },
+        {
+          "itemId": "enshrouded-ice",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "id": "recipe-brazen-bull-chest-blacksmith",
+      "outputItemId": "brazen-bull-chest",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "coal",
+          "quantity": 10
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 8
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 12
+        },
+        {
+          "itemId": "obsidian",
+          "quantity": 5
+        },
+        {
+          "itemId": "amethyst",
+          "quantity": 10
+        },
+        {
+          "itemId": "enshrouded-ice",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "id": "recipe-brazen-bull-gloves-blacksmith",
+      "outputItemId": "brazen-bull-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "coal",
+          "quantity": 4
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 4
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 4
+        },
+        {
+          "itemId": "obsidian",
+          "quantity": 2
+        },
+        {
+          "itemId": "amethyst",
+          "quantity": 2
+        },
+        {
+          "itemId": "chitin-powder",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-brazen-bull-trousers-blacksmith",
+      "outputItemId": "brazen-bull-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "coal",
+          "quantity": 6
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 6
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "id": "recipe-brazen-bull-boots-blacksmith",
+      "outputItemId": "brazen-bull-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "coal",
+          "quantity": 4
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 4
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "chitin-powder",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-wolfs-fang-hood-blacksmith",
+      "outputItemId": "wolfs-fang-hood",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "silver-bars",
+          "quantity": 1
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 1
+        },
+        {
+          "itemId": "hardened-leather",
+          "quantity": 3
+        },
+        {
+          "itemId": "enshrouded-cyclops-eye",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-wolfs-fang-chest-blacksmith",
+      "outputItemId": "wolfs-fang-chest",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "silver-bars",
+          "quantity": 21
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 6
+        },
+        {
+          "itemId": "hardened-leather",
+          "quantity": 10
+        },
+        {
+          "itemId": "enshrouded-ice",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "id": "recipe-wolfs-fang-gloves-blacksmith",
+      "outputItemId": "wolfs-fang-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "fossilized-bone-dust",
+          "quantity": 2
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 3
+        },
+        {
+          "itemId": "scales",
+          "quantity": 10
+        },
+        {
+          "itemId": "chitin-powder",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-wolfs-fang-trousers-blacksmith",
+      "outputItemId": "wolfs-fang-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "warm-padding",
+          "quantity": 5
+        },
+        {
+          "itemId": "hardened-leather",
+          "quantity": 6
+        },
+        {
+          "itemId": "enshrouded-ice",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "id": "recipe-wolfs-fang-boots-blacksmith",
+      "outputItemId": "wolfs-fang-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "warm-padding",
+          "quantity": 2
+        },
+        {
+          "itemId": "hardened-leather",
+          "quantity": 6
+        },
+        {
+          "itemId": "chitin-powder",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-mountains-shadow-helmet-blacksmith",
+      "outputItemId": "mountains-shadow-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "coal",
+          "quantity": 2
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 4
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "obsidian",
+          "quantity": 3
+        },
+        {
+          "itemId": "enshrouded-ice",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "id": "recipe-mountains-shadow-chest-blacksmith",
+      "outputItemId": "mountains-shadow-chest",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "obsidian",
+          "quantity": 10
+        },
+        {
+          "itemId": "coal",
+          "quantity": 6
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 8
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "enshrouded-ice",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "id": "recipe-mountains-shadow-gloves-blacksmith",
+      "outputItemId": "mountains-shadow-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "obsidian",
+          "quantity": 4
+        },
+        {
+          "itemId": "coal",
+          "quantity": 3
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 4
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "chitin-powder",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-mountains-shadow-trousers-blacksmith",
+      "outputItemId": "mountains-shadow-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 4
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 7
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "enshrouded-ice",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "id": "recipe-mountains-shadow-boots-blacksmith",
+      "outputItemId": "mountains-shadow-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "coal",
+          "quantity": 3
+        },
+        {
+          "itemId": "warm-padding",
+          "quantity": 5
+        },
+        {
+          "itemId": "steel-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "chitin-powder",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-warden-helmet-blacksmith",
+      "outputItemId": "warden-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "lapislazuli",
+          "quantity": 2
+        },
+        {
+          "itemId": "padding",
+          "quantity": 2
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 5
+        },
+        {
+          "itemId": "enshrouded-vulture-talon",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-warden-chestplate-blacksmith",
+      "outputItemId": "warden-chestplate",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 8
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 8
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 12
+        },
+        {
+          "itemId": "lapislazuli",
+          "quantity": 5
+        },
+        {
+          "itemId": "fell-heart",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-warden-gloves-blacksmith",
+      "outputItemId": "warden-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 4
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 8
+        },
+        {
+          "itemId": "lapislazuli",
+          "quantity": 4
+        },
+        {
+          "itemId": "enshrouded-vulture-talon",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-warden-trousers-blacksmith",
+      "outputItemId": "warden-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 6
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 9
+        },
+        {
+          "itemId": "shroud-sand",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-warden-boots-blacksmith",
+      "outputItemId": "warden-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 4
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 8
+        },
+        {
+          "itemId": "leather",
+          "quantity": 2
+        },
+        {
+          "itemId": "mist-of-a-fell-sicklescythe",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-rogue-helmet-blacksmith",
+      "outputItemId": "rogue-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "fossilized-bone-dust",
+          "quantity": 5
+        },
+        {
+          "itemId": "padding",
+          "quantity": 1
+        },
+        {
+          "itemId": "scales",
+          "quantity": 15
+        },
+        {
+          "itemId": "enshrouded-vulture-talon",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-rogue-chestplate-blacksmith",
+      "outputItemId": "rogue-chestplate",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "fossilized-bone-dust",
+          "quantity": 10
+        },
+        {
+          "itemId": "padding",
+          "quantity": 6
+        },
+        {
+          "itemId": "scales",
+          "quantity": 30
+        },
+        {
+          "itemId": "fell-heart",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-rogue-gloves-blacksmith",
+      "outputItemId": "rogue-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "fossilized-bone-dust",
+          "quantity": 2
+        },
+        {
+          "itemId": "padding",
+          "quantity": 3
+        },
+        {
+          "itemId": "scales",
+          "quantity": 10
+        },
+        {
+          "itemId": "enshrouded-vulture-talon",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-rogue-trousers-blacksmith",
+      "outputItemId": "rogue-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 5
+        },
+        {
+          "itemId": "scales",
+          "quantity": 20
+        },
+        {
+          "itemId": "brittle-shroud-flakes",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-rogue-boots-blacksmith",
+      "outputItemId": "rogue-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "leather",
+          "quantity": 4
+        },
+        {
+          "itemId": "padding",
+          "quantity": 2
+        },
+        {
+          "itemId": "scales",
+          "quantity": 10
+        },
+        {
+          "itemId": "mist-of-a-fell-sicklescythe",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-soldier-helmet-blacksmith",
+      "outputItemId": "soldier-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 1
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 4
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 1
+        },
+        {
+          "itemId": "enshrouded-vulture-talon",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-soldier-chestplate-blacksmith",
+      "outputItemId": "soldier-chestplate",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "lapislazuli",
+          "quantity": 3
+        },
+        {
+          "itemId": "padding",
+          "quantity": 5
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 8
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 5
+        },
+        {
+          "itemId": "fell-heart",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-soldier-gloves-blacksmith",
+      "outputItemId": "soldier-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "lapislazuli",
+          "quantity": 2
+        },
+        {
+          "itemId": "padding",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 4
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "enshrouded-vulture-talon",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-soldier-trousers-blacksmith",
+      "outputItemId": "soldier-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 4
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 7
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "shroud-sand",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-soldier-boots-blacksmith",
+      "outputItemId": "soldier-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "padding",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 5
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "mist-of-a-fell-sicklescythe",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-blackguard-helmet-blacksmith",
+      "outputItemId": "blackguard-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "critter-glands",
+          "quantity": 4
+        },
+        {
+          "itemId": "monstrous-ribs",
+          "quantity": 1
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-blackguard-chest-blacksmith",
+      "outputItemId": "blackguard-chest",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "critter-glands",
+          "quantity": 6
+        },
+        {
+          "itemId": "monstrous-ribs",
+          "quantity": 4
+        },
+        {
+          "itemId": "linen",
+          "quantity": 5
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-blackguard-gloves-blacksmith",
+      "outputItemId": "blackguard-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "critter-glands",
+          "quantity": 5
+        },
+        {
+          "itemId": "monstrous-ribs",
+          "quantity": 3
+        },
+        {
+          "itemId": "leather",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "recipe-blackguard-trousers-blacksmith",
+      "outputItemId": "blackguard-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "critter-glands",
+          "quantity": 6
+        },
+        {
+          "itemId": "monstrous-ribs",
+          "quantity": 2
+        },
+        {
+          "itemId": "linen",
+          "quantity": 3
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-blackguard-boots-blacksmith",
+      "outputItemId": "blackguard-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "critter-glands",
+          "quantity": 4
+        },
+        {
+          "itemId": "monstrous-ribs",
+          "quantity": 2
+        },
+        {
+          "itemId": "leather",
+          "quantity": 2
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-guardian-helmet-blacksmith",
+      "outputItemId": "guardian-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "amber",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "petrified-shroud-stalker-shell",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-guardian-chestplate-blacksmith",
+      "outputItemId": "guardian-chestplate",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 5
+        },
+        {
+          "itemId": "leather",
+          "quantity": 4
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 6
+        },
+        {
+          "itemId": "amber",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 3
+        },
+        {
+          "itemId": "critter-glands",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "recipe-guardian-gloves-blacksmith",
+      "outputItemId": "guardian-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 2
+        },
+        {
+          "itemId": "leather",
+          "quantity": 2
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "amber",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "shroud-adhesive",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "recipe-guardian-trousers-blacksmith",
+      "outputItemId": "guardian-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 4
+        },
+        {
+          "itemId": "leather",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "acidic-mycelium",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "id": "recipe-guardian-boots-blacksmith",
+      "outputItemId": "guardian-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 6
+        },
+        {
+          "itemId": "leather",
+          "quantity": 2
+        },
+        {
+          "itemId": "amber",
+          "quantity": 4
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "corrosive-blood",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-mercenary-helmet-blacksmith",
+      "outputItemId": "mercenary-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "petrified-shroud-stalker-shell",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-mercenary-chest-blacksmith",
+      "outputItemId": "mercenary-chest",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 5
+        },
+        {
+          "itemId": "leather",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 3
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 4
+        },
+        {
+          "itemId": "amber",
+          "quantity": 6
+        },
+        {
+          "itemId": "critter-glands",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "recipe-mercenary-gloves-blacksmith",
+      "outputItemId": "mercenary-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 2
+        },
+        {
+          "itemId": "leather",
+          "quantity": 1
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "ammonia-gland",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-mercenary-trousers-blacksmith",
+      "outputItemId": "mercenary-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 4
+        },
+        {
+          "itemId": "leather",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "mint-mushroom-meat",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "id": "recipe-mercenary-boots-blacksmith",
+      "outputItemId": "mercenary-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 6
+        },
+        {
+          "itemId": "leather",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "bronze-bars",
+          "quantity": 3
+        },
+        {
+          "itemId": "corrosive-blood",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-tank-helmet-blacksmith",
+      "outputItemId": "tank-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "copper-bar",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "corrupted-boar-tusk",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-tank-chestplate-blacksmith",
+      "outputItemId": "tank-chestplate",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 5
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 3
+        },
+        {
+          "itemId": "dried-fur",
+          "quantity": 2
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 5
+        },
+        {
+          "itemId": "amber",
+          "quantity": 3
+        },
+        {
+          "itemId": "giant-critter-scales",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-tank-gloves-blacksmith",
+      "outputItemId": "tank-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "resin",
+          "quantity": 1
+        },
+        {
+          "itemId": "dried-fur",
+          "quantity": 1
+        },
+        {
+          "itemId": "linen",
+          "quantity": 2
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "shroud-sack",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-tank-trousers-blacksmith",
+      "outputItemId": "tank-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 3
+        },
+        {
+          "itemId": "dried-fur",
+          "quantity": 1
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 4
+        },
+        {
+          "itemId": "shroud-mushroom",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-tank-boots-blacksmith",
+      "outputItemId": "tank-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "dried-fur",
+          "quantity": 2
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 2
+        },
+        {
+          "itemId": "brittle-shroud-petals",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-adventurer-helmet-blacksmith",
+      "outputItemId": "adventurer-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "copper-bar",
+          "quantity": 1
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 1
+        },
+        {
+          "itemId": "corrupted-boar-tusk",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-adventurer-chest-blacksmith",
+      "outputItemId": "adventurer-chest",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 5
+        },
+        {
+          "itemId": "dried-fur",
+          "quantity": 2
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 3
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 3
+        },
+        {
+          "itemId": "giant-critter-scales",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-adventurer-gloves-blacksmith",
+      "outputItemId": "adventurer-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "dried-fur",
+          "quantity": 2
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 1
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 1
+        },
+        {
+          "itemId": "linen",
+          "quantity": 3
+        },
+        {
+          "itemId": "shroud-sack",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-adventurer-trousers-blacksmith",
+      "outputItemId": "adventurer-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 2
+        },
+        {
+          "itemId": "dried-fur",
+          "quantity": 1
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        },
+        {
+          "itemId": "shroud-mushroom",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-adventurer-boots-blacksmith",
+      "outputItemId": "adventurer-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "linen",
+          "quantity": 6
+        },
+        {
+          "itemId": "dried-fur",
+          "quantity": 2
+        },
+        {
+          "itemId": "copper-bar",
+          "quantity": 1
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 1
+        },
+        {
+          "itemId": "brittle-shroud-petals",
+          "quantity": 1
+        },
+        {
+          "itemId": "plant-fiber",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-rising-fighter-helmet-blacksmith",
+      "outputItemId": "rising-fighter-helmet",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "metal-sheets",
+          "quantity": 1
+        },
+        {
+          "itemId": "animal-fur",
+          "quantity": 1
+        },
+        {
+          "itemId": "resin",
+          "quantity": 3
+        },
+        {
+          "itemId": "aerated-banshee-gel",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-rising-fighter-chest-blacksmith",
+      "outputItemId": "rising-fighter-chest",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "string",
+          "quantity": 4
+        },
+        {
+          "itemId": "animal-fur",
+          "quantity": 4
+        },
+        {
+          "itemId": "resin",
+          "quantity": 2
+        },
+        {
+          "itemId": "metal-sheets",
+          "quantity": 3
+        },
+        {
+          "itemId": "active-mycelium",
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "id": "recipe-rising-fighter-gloves-blacksmith",
+      "outputItemId": "rising-fighter-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "string",
+          "quantity": 4
+        },
+        {
+          "itemId": "animal-fur",
+          "quantity": 2
+        },
+        {
+          "itemId": "metal-sheets",
+          "quantity": 2
+        },
+        {
+          "itemId": "aerated-banshee-gel",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-rising-fighter-trousers-blacksmith",
+      "outputItemId": "rising-fighter-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "metal-sheets",
+          "quantity": 2
+        },
+        {
+          "itemId": "string",
+          "quantity": 4
+        },
+        {
+          "itemId": "animal-fur",
+          "quantity": 3
+        },
+        {
+          "itemId": "shroud-liquid",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "recipe-rising-fighter-boots-blacksmith",
+      "outputItemId": "rising-fighter-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "animal-fur",
+          "quantity": 2
+        },
+        {
+          "itemId": "resin",
+          "quantity": 5
+        },
+        {
+          "itemId": "metal-sheets",
+          "quantity": 1
+        },
+        {
+          "itemId": "mycelium",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "id": "recipe-fur-boots-blacksmith",
+      "outputItemId": "fur-boots",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "torn-cloth",
+          "quantity": 2
+        },
+        {
+          "itemId": "animal-fur",
+          "quantity": 1
+        },
+        {
+          "itemId": "string",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-fur-chest-blacksmith",
+      "outputItemId": "fur-chest",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "string",
+          "quantity": 2
+        },
+        {
+          "itemId": "torn-cloth",
+          "quantity": 1
+        },
+        {
+          "itemId": "animal-fur",
+          "quantity": 3
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-fur-gloves-blacksmith",
+      "outputItemId": "fur-gloves",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "torn-cloth",
+          "quantity": 2
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 2
+        },
+        {
+          "itemId": "string",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-fur-hood-blacksmith",
+      "outputItemId": "fur-hood",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "torn-cloth",
+          "quantity": 1
+        },
+        {
+          "itemId": "animal-fur",
+          "quantity": 1
+        },
+        {
+          "itemId": "string",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-fur-trousers-blacksmith",
+      "outputItemId": "fur-trousers",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "torn-cloth",
+          "quantity": 1
+        },
+        {
+          "itemId": "animal-fur",
+          "quantity": 2
+        },
+        {
+          "itemId": "string",
+          "quantity": 2
+        },
+        {
+          "itemId": "metal-scraps",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe-iron-fireplace-blacksmith",
+      "outputItemId": "iron-fireplace",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "charcoal",
+          "quantity": 8
+        },
+        {
+          "itemId": "iron-bars",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "id": "recipe-urn-blacksmith",
+      "outputItemId": "urn",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-fire-bowl-blacksmith",
+      "outputItemId": "fire-bowl",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "recipe-jewelry-box-blacksmith",
+      "outputItemId": "jewelry-box",
+      "outputQuantity": 1,
+      "station": "blacksmith",
+      "ingredients": [
+        {
+          "itemId": "bronze-bars",
+          "quantity": 2
+        },
+        {
+          "itemId": "charcoal",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}
